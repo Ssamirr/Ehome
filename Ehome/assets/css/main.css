@@ -60,6 +60,9 @@
     margin: 0px;
   }
 
+html{
+    overflow-x: hidden;
+}
 
 body{
     font-family: MavenPro-Regular;
