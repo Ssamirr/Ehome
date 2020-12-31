@@ -728,6 +728,7 @@ ul{
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    z-index: 50;
 }
 
 .mobile_layout_wrapper .main_header_wrapper .main_header_inner .shortcut_icons_column{
