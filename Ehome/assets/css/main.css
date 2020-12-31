@@ -651,6 +651,10 @@ body .overlay_site .element .anime {
     font-size: 14px;
 }
 
+.service-for-company{
+    opacity: 0.7;
+}
+
 
 @media screen and (min-width: 1121px) {
     .mobile_layout_wrapper{
@@ -872,9 +876,6 @@ body .overlay_site .element .anime {
 }
 
 @media screen and (max-width: 744px){
-    body{
-        overflow-x: hidden;
-    }
     .news-subscriber .form-group{
         display: -webkit-box !important;
         display: -ms-flexbox !important;
@@ -884,8 +885,14 @@ body .overlay_site .element .anime {
 }
 
 @media screen and (max-width: 720px){
-    body{
-        overflow-x: hidden;
+
+    /* .company-service-section{
+        margin-left: 15px;
+        margin-right: 15px;
+    } */
+
+    .service-for-company i{
+        font-size: 20px !important;
     }
     #owl-carousel-first img{
         height: 350px;
@@ -1034,15 +1041,15 @@ body .overlay_site .element .anime {
 }
 
 @media screen and (max-width: 460px){
-    body{
+    /* body{
         overflow-x: hidden;
     }
     .company-services{
         margin: auto;
         min-width: 200px;
         max-width: 212px;
-    }
-    .company-services .col-3{
+    } */
+    /* .company-services .col-3{
         -webkit-box-flex: 100%;
             -ms-flex: 100%;
                 flex: 100%;
@@ -1050,7 +1057,7 @@ body .overlay_site .element .anime {
         -webkit-box-pack: start;
             -ms-flex-pack: start;
                 justify-content: start;
-    }
+    } */
     .company-services .service-for-company{
         border: none;
         padding: 5px 0px;
