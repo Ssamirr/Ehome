@@ -95,7 +95,7 @@ ul{
 }
 
 .desktop_layout_wrapper .top_header_wrapper .top_header_inner .top_header_inner_left ul li a {
-    font-family: MavenPro-Bold;
+    font-family: MavenPro-SemiBold;
     font-size: 12px;
     font-weight: 500;
     line-height: 35px;
@@ -148,7 +148,7 @@ ul{
 }
 
 .desktop_layout_wrapper .top_header_wrapper .top_header_inner .top_header_inner_right ul li a .top_header_inner_right_text {
-    font-family: MavenPro-Bold;
+    font-family: MavenPro-SemiBold;
     font-size: 12px;
     font-weight: 500;
     display: inline-block;
@@ -239,7 +239,7 @@ ul{
 }
 
 .desktop_layout_wrapper .middle_header_wrapper .middle_header_inner .middle_header_inner_shortcuts_wrapper .shortcuts_list .shortcut_column .shortcut_title .shortcut_text {
-    font-family: MavenPro-Bold;
+    font-family: MavenPro-SemiBold;
     font-size: 12px;
     font-weight: 500;
     letter-spacing: .7px;
@@ -406,7 +406,7 @@ ul{
 
 .desktop_layout_wrapper .main_menu_wrapper .main_menu_categories .main_menu_category_list_wrapper .main_category_list .main_category_name {
     display: inline-block;
-    font-family: MavenPro-Bold;
+    font-family: MavenPro-SemiBold;
     font-size: 12px;
     font-weight: 500;
     letter-spacing: .5px;
@@ -520,7 +520,7 @@ ul{
 }
 
 .desktop_layout_wrapper .main_menu_wrapper .main_menu_categories .main_menu_category_list_wrapper .main_category_list .main_category_inner .main_category_inner_container .subcategories_column .img_column_inner .img_column_cta_box .column_cta {
-    font-family: MavenPro-Bold;
+    font-family: MavenPro-SemiBold;
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 1px;
@@ -591,7 +591,7 @@ ul{
 }
 
 .desktop_layout_wrapper .main_menu_wrapper .main_menu_categories .main_menu_category_list_wrapper .main_category_list .main_category_inner .main_category_inner_container .subcategories_column .subcategories_list li .subcategory_name.head_category {
-    font-family: MavenPro-Bold;
+    font-family: MavenPro-SemiBold;
     font-size: 12px;
 }
 
@@ -1196,7 +1196,10 @@ body.overflow_hidden {
     border: none !important;
 }
 
-@media screen and (min-width: 1120px) {
+@media screen and (min-width: 1121px) {
+    .mobile_layout_wrapper{
+        display: none;
+    }
     .desktop_layout_wrapper .middle_header_wrapper .middle_header_inner, .desktop_layout_wrapper .top_header_wrapper .top_header_inner {
         width: 1120px;
     }

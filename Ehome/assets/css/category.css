@@ -1,0 +1,65 @@
+@font-face {
+    font-family: MavenPro-Regular;
+    src: url(../fonts/MavenPro-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: MavenPro-Medium;
+    src: url(../fonts/MavenPro-Medium.ttf);
+  }
+  
+  @font-face {
+    font-family: MavenPro-SemiBold;
+    src: url(../fonts/MavenPro-SemiBold.ttf);
+  }
+  
+  @font-face {
+    font-family: MavenPro-Bold;
+    src: url(../fonts/MavenPro-Bold.ttf);
+  }
+  
+  @font-face {
+    font-family: MavenPro-ExtraBold;
+    src: url(../fonts/MavenPro-ExtraBold.ttf);
+  }
+  
+  h1 {
+    font-family: MavenPro-Regular;
+    margin: 0px;
+  }
+  
+  h2 {
+    font-family: MavenPro-Regular;
+    margin: 0px;
+  }
+  
+  h3 {
+    font-family: MavenPro-Regular;
+    margin: 0px;
+  }
+  
+  h4 {
+    font-family: MavenPro-Regular;
+    margin: 0px;
+  }
+  
+  h5 {
+    font-family: MavenPro-Regular;
+    margin: 0px;
+  }
+  
+  h6 {
+    font-family: MavenPro-Regular;
+    margin: 0px;
+  }
+
+ul{
+    padding: 0;
+}
+
+.category-banner img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+  }
