@@ -3,15 +3,20 @@ $(document).ready(function() {
     $('#owl-carousel-first').owlCarousel({
         loop:true,
         margin:10,
-        nav:true,
+        nav:false,
         items:1,
         autoplay:true,
+        responsive:{
+            769:{
+                nav:true,
+            },
+        }
 });
 
 $('#owl-carousel-blog').owlCarousel({
     loop:true,
     margin:10,
-    nav:true,
+    nav:false,
     items:4,
     autoplay:true,
     responsive:{
@@ -24,7 +29,11 @@ $('#owl-carousel-blog').owlCarousel({
         677:{
             items:3,
         },
+        769:{
+            nav:true,
+        },
         900:{
+            nav:true,
             items:4,
         }
         
@@ -34,7 +43,7 @@ $('#owl-carousel-blog').owlCarousel({
 $('#owl-carousel-partner').owlCarousel({
     loop:true,
     margin:10,
-    nav:true,
+    nav:false,
     items:8,
     autoplay:true,
     responsive:{
@@ -50,10 +59,15 @@ $('#owl-carousel-partner').owlCarousel({
         644:{
             items:6,
         },
+        769:{
+            nav:true,
+        },
         800:{
+            nav:true,
             items:7,
         },
         1120:{
+            nav:true,
             items:8,
         }
         

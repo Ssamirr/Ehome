@@ -578,7 +578,7 @@ ul{
     display: none;
 }
 
-.main_category_list #vivense_Other_Category {
+.main_category_list #ehome_Other_Category {
     font-size: 28px;
     line-height: 0;
     height: 100%;
@@ -1189,6 +1189,10 @@ body.overflow_hidden {
 
 .ehome-asking-menu{
     display: none !important;
+}
+
+.main_category_inner_container.subcategories .subcategories_column.three_column_list:last-of-type .subcategories_list{
+    border: none !important;
 }
 
 @media screen and (min-width: 1120px) {
