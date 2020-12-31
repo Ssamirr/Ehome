@@ -22,6 +22,7 @@
 <body>
 
     <header>
+        <!-- .............................for desktop......................................... -->
         <div class="desktop_layout_wrapper">
             <div class="top_header_wrapper">
                 <div class="top_header_inner">
@@ -111,12 +112,13 @@
                         <div class="shortcuts_list customer-group">
                             <div class="shortcut_column membership_wrapper_notlogin headerLoginRegister"
                                 style="display: block;">
-                                <a style="text-decoration: none" rel="nofollow" href="javascript:void(0)"
+                                <a data-toggle="modal" data-target="#exampleModal" style="text-decoration: none" rel="nofollow" href=""
                                     class="shortcut_title d-flex align-items-center" id="custom-user-login">
                                     <i style="color: #71767b;font-size: 22px;margin-right: 8px;" class="fa fa-user"></i>
-                                    <span class="shortcut_text">Giriş</span>
+                                    <span 
+                                        class="shortcut_text">Giriş</span>
                                 </a>
-                                <div class="shortcut_detail login_popup_inner">
+                                <!-- <div class="shortcut_detail login_popup_inner">
                                     <div class="login_popup_header">
                                         <ul class="login_popup_header_ul">
                                             <li>
@@ -143,7 +145,7 @@
                                             </li>
                                         </ul>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                             <div class="shortcut_column my_favorites_wrapper my-favorites">
                                 <a style="text-decoration: none" rel="nofollow" href="javascript:void(0)"
@@ -167,6 +169,8 @@
                             </div>
                         </div>
                     </div>
+
+                    
                 </div>
             </div>
 
@@ -800,6 +804,402 @@
 
 
         </div>
+
+        <!-- ..............................................for mobile.................................................... -->
+        <div class="mobile_layout_wrapper">
+            <div class="top_header_wrapper">
+                <ul>
+                    <li class="">
+                        <a class="" href="">
+                            <span class="top_header_inner_right_icon"><i class="fas fa-bullhorn"
+                                    aria-hidden="true"></i></span>
+                            <span class="top_header_inner_right_text">KAMPANİYALAR</span>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a class="" href="">
+                            <span class="top_header_inner_right_icon"><i class="fab fa-blogger-b"
+                                    aria-hidden="true"></i></span>
+                            <span class="top_header_inner_right_text">BLOG</span>
+                        </a>
+                    </li>
+
+                    <li class="ehome-asking-top">
+                        <a class="" href="">
+                            <span class="top_header_inner_right_icon"><i class="fa fa-question"
+                                    aria-hidden="true"></i></span>
+                            <span class="top_header_inner_right_text">TEZ-TEZ VERİLƏN SUALLAR</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="main_header_wrapper">
+                <div class="main_header_inner">
+                    <div class="d-flex main_header_inner_column hamburder_menu_column">
+                        <div id="nav-icon" class="menu-button">
+                            <span class="burger-icon"></span>
+                        </div>
+                    </div>
+                    <div class="main_header_inner_column logo_column">
+                        <a href="/?ref=header_logo_m">
+                            <img src="assets/images/2.png" alt="">
+                        </a>
+                    </div>
+                    <div class="call-center-mobile d-flex align-items-center">
+                            <img class="img-call-center" style="margin-right:5px;width:30px !important" src="assets/images/tel.png" alt="" width="30px">
+                            <div class="for-mobile-call" style="color: red;font-size: 12px;line-height:14px;margin-right:5px;position:relative">
+                                Çağrı
+                                <br> Mərkəzi
+                                <div style="position: absolute;white-space:nowrap;color:#71767b;font-size:9px;margin-top:3px;">
+                                    Hər gün 09:00 - 21:00</div>
+                            </div>
+                            <div class="number-company-mobile" style="color: red;font-size:18px;margin-top:10px">050 204 90 01</div>
+                        </div>
+                    
+
+                    <div class="main_header_inner_column shortcut_icons_column">
+                        <ul>
+                            <li class="headerLoginRegisterMobile" style="display: block;">
+                                <a data-toggle="modal" data-target="#exampleModal" href="" id="custom-user-login" class="membership_icon">
+                                    <i style="color: #71767b;font-size: 22px;margin-right: 8px;" class="fa fa-user"
+                                        aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="basket_icon my-cart-mobile"><i
+                                        style="color: #71767b;font-size: 22px;margin-right: 8px;"
+                                        class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </div>
+                <div class="main_header_search_wrapper">
+                    <form action="" class="header_search_form">
+                        <span class="t-type" style="position: relative; display: inline-block;"><input
+                                id="search-suggestion-mobile" name="q" type="text"
+                                class="header_search_input typeahead search-suggestion-typeahead tt-input"
+                                data-provider="typeahead" value="" placeholder="Evin için ne arıyorsun?"
+                                autocomplete="off" spellcheck="false" dir="auto"
+                                style="position: relative; vertical-align: top;">
+                            <pre aria-hidden="true"
+                                style="position: absolute; visibility: hidden; white-space: pre; font-family: BrandonTextRegular; font-size: 15px; font-style: normal; font-variant: normal; font-weight: 500; word-spacing: 0px; letter-spacing: 0.4px; text-indent: 0px; text-rendering: optimizelegibility; text-transform: none;">k</pre>
+                            <div class="tt-menu tt-empty"
+                                style="position: absolute; top: 100%; left: 0px; z-index: 993; display: none;">
+                                <div class="tt-dataset tt-dataset-categories">alma</div>
+                                <div class="tt-dataset tt-dataset-products"></div>
+                            </div></span>
+                        <button type="submit" class="header_search_btn"><i class="fa fa-search"
+                                aria-hidden="true"></i></button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="menu-content overlay close">
+
+                <nav class="menu">
+                    <ul class="to-left-ul">
+                        <li class="menu__item only_link">
+                            <a class="menu__link" href="">
+                                <span class="top_header_inner_right_icon"><i class="fa fa-info-circle"></i></span>
+                                <span class="top_header_inner_right_text">Haqqimizda</span>
+                            </a>
+                        </li>
+                        <li class="menu__item only_link">
+                            <a class="menu__link" href="">
+                                <span class="top_header_inner_right_icon"><i class="fa fa-map-marker"></i></span>
+                                <span class="top_header_inner_right_text">Ünvan</span>
+                            </a>
+                        </li>
+                        <li class="menu__item only_link">
+                            <a class="menu__link" href="">
+                                <span class="top_header_inner_right_icon"><i class="fa fa-phone"></i></span>
+                                <span class="top_header_inner_right_text">Əlaqə</span>
+                            </a>
+                        </li>
+                        <li class="menu__item only_link">
+                            <a class="menu__link" href="">
+                                <span class="top_header_inner_right_icon"><i class="fa fa-credit-card"></i></span>
+                                <span class="top_header_inner_right_text">Kredit</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__item only_link">
+                            <a class="menu__link" href="">
+                                <span class="top_header_inner_right_icon"><i class="fa fa-map-marker"></i></span>
+                                <span class="top_header_inner_right_text">Ödəmə Şərtləri</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__item only_link ehome-asking-menu">
+                            <a class="menu__link" href="">
+                                <span class="top_header_inner_right_icon"><i class="fa fa-question"
+                                        aria-hidden="true"></i></span>
+                                <span class="top_header_inner_right_text">TEZ-TEZ VERİLƏN SUALLAR</span>
+                            </a>
+                        </li>
+
+
+
+
+
+                        <li class="menu__item to-left">
+                            <a href="" class="menu__link" title="OTURMA ODASI">MƏTBƏX MEBELİ<span class="arrow"><i
+                                        class="fa fa-plus for-icon-style"></i></span></a>
+                            <ul class="menu__sub-menu">
+                                <li class="menu__sub-menu__item">
+                                    <a href="" class="menu__sub-menu__link child_category" title="KOLTUK TAKIMI">Modern
+                                        mətbəx mebelleri</a>
+                                </li>
+                                <li class="menu__sub-menu__item">
+                                    <a href="" class="menu__sub-menu__link child_category" title="KOLTUK TAKIMI">Klassik
+                                        mətbəx mebelleri</a>
+                                </li>
+                                <li class="menu__sub-menu__item">
+                                    <a href="" class="menu__sub-menu__link child_category"
+                                        title="KOLTUK TAKIMI">Neoklassik mətbəx mebelleri</a>
+                                </li>
+                                <li class="menu__sub-menu__item">
+                                    <a href="" class="menu__sub-menu__link child_category" title="KOLTUK TAKIMI">Mətbəx
+                                        dolabları</a>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li class="menu__item to-left">
+                            <a href="" class="menu__link" title="OTURMA ODASI">MƏTBƏX MEBELİ<span class="arrow"><i
+                                        class="fa fa-plus for-icon-style"></i></span></a>
+                            <ul class="menu__sub-menu">
+                                <li class="menu__sub-menu__item">
+                                    <a href="" class="menu__sub-menu__link child_category" title="KOLTUK TAKIMI">Modern
+                                        mətbəx mebelleri</a>
+                                </li>
+                                <li class="menu__sub-menu__item">
+                                    <a href="" class="menu__sub-menu__link child_category" title="KOLTUK TAKIMI">Klassik
+                                        mətbəx mebelleri</a>
+                                </li>
+                                <li class="menu__sub-menu__item">
+                                    <a href="" class="menu__sub-menu__link child_category"
+                                        title="KOLTUK TAKIMI">Neoklassik mətbəx mebelleri</a>
+                                </li>
+                                <li class="menu__sub-menu__item">
+                                    <a href="" class="menu__sub-menu__link child_category" title="KOLTUK TAKIMI">Mətbəx
+                                        dolabları</a>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li class="menu__item to-left">
+                            <a href="" class="menu__link" title="OTURMA ODASI">MƏTBƏX MEBELİ<span class="arrow"><i
+                                        class="fa fa-plus for-icon-style"></i></span></a>
+                            <ul class="menu__sub-menu">
+                                <li class="menu__sub-menu__item">
+                                    <a href="" class="menu__sub-menu__link child_category" title="KOLTUK TAKIMI">Modern
+                                        mətbəx mebelleri</a>
+                                </li>
+                                <li class="menu__sub-menu__item">
+                                    <a href="" class="menu__sub-menu__link child_category" title="KOLTUK TAKIMI">Klassik
+                                        mətbəx mebelleri</a>
+                                </li>
+                                <li class="menu__sub-menu__item">
+                                    <a href="" class="menu__sub-menu__link child_category"
+                                        title="KOLTUK TAKIMI">Neoklassik mətbəx mebelleri</a>
+                                </li>
+                                <li class="menu__sub-menu__item">
+                                    <a href="" class="menu__sub-menu__link child_category" title="KOLTUK TAKIMI">Mətbəx
+                                        dolabları</a>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li class="menu__item to-left">
+                            <a href="" class="menu__link" title="OTURMA ODASI">MƏTBƏX MEBELİ<span class="arrow"><i
+                                        class="fa fa-plus for-icon-style"></i></span></a>
+                            <ul class="menu__sub-menu">
+                                <li class="menu__sub-menu__item">
+                                    <a href="" class="menu__sub-menu__link child_category" title="KOLTUK TAKIMI">Modern
+                                        mətbəx mebelleri</a>
+                                </li>
+                                <li class="menu__sub-menu__item">
+                                    <a href="" class="menu__sub-menu__link child_category" title="KOLTUK TAKIMI">Klassik
+                                        mətbəx mebelleri</a>
+                                </li>
+                                <li class="menu__sub-menu__item">
+                                    <a href="" class="menu__sub-menu__link child_category"
+                                        title="KOLTUK TAKIMI">Neoklassik mətbəx mebelleri</a>
+                                </li>
+                                <li class="menu__sub-menu__item">
+                                    <a href="" class="menu__sub-menu__link child_category" title="KOLTUK TAKIMI">Mətbəx
+                                        dolabları</a>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li class="menu__item to-left">
+                            <a href="" class="menu__link" title="OTURMA ODASI">MƏTBƏX MEBELİ<span class="arrow"><i
+                                        class="fa fa-plus for-icon-style"></i></span></a>
+                            <ul class="menu__sub-menu">
+                                <li class="menu__sub-menu__item">
+                                    <a href="" class="menu__sub-menu__link child_category" title="KOLTUK TAKIMI">Modern
+                                        mətbəx mebelleri</a>
+                                </li>
+                                <li class="menu__sub-menu__item">
+                                    <a href="" class="menu__sub-menu__link child_category" title="KOLTUK TAKIMI">Klassik
+                                        mətbəx mebelleri</a>
+                                </li>
+                                <li class="menu__sub-menu__item">
+                                    <a href="" class="menu__sub-menu__link child_category"
+                                        title="KOLTUK TAKIMI">Neoklassik mətbəx mebelleri</a>
+                                </li>
+                                <li class="menu__sub-menu__item">
+                                    <a href="" class="menu__sub-menu__link child_category" title="KOLTUK TAKIMI">Mətbəx
+                                        dolabları</a>
+                                </li>
+
+                            </ul>
+                        </li>
+
+
+                    </ul>
+                </nav>
+<div style="background: white;height:200px"></div>
+                <!-- <div class="hamburger_menu_footer_wrapper">
+                    <div class="hamburger_menu_footer_inner">
+                        <div class="hamburger_menu_footer_inner_subscribe_icon">
+                            <div class="hamburger_menu_footer_inner_subscribe_icon_div"></div>
+                        </div>
+                        <div class="hamburger_menu_footer_inner_subscribe_title">Vİvense’nİn Renklİ Dünyasına Katıl!
+                        </div>
+                        <div class="hamburger_menu_footer_inner_subscribe_desc">
+                            En yeni dekorasyon trendleri, kampanyalar, ve sana özel sürprizler...
+                        </div>
+                        <div class="footer_subscribe_button_area">
+                            <a class="footer_subscribe_button" id="customuserpopup" href="javascript:void(0)">HEMEN ÜYE
+                                OL</a>
+                        </div>
+                    </div>
+                    <div class="footer_bottom_social_media">
+                        <div class="footer_bottom_social_media_icons">
+                            <ul>
+                                <li>
+                                    <a href="//instagram.com/vivensecom" class="icon_instragram" target="_blank">Vivense
+                                        Instagram</a>
+                                </li>
+                                <li>
+                                    <a href="//youtube.com/vivensecom" class="icon_youtube" target="_blank">Vivense
+                                        Youtube</a>
+                                </li>
+                                <li>
+                                    <a href="//facebook.com/VivenseCom" class="icon_facebook" target="_blank">Vivense
+                                        Facebook</a>
+                                </li>
+                                <li>
+                                    <a href="//tr.pinterest.com/vivense" class="icon_pinterest" target="_blank">Vivense
+                                        Pinterest</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+
+
+
+        </div>
+
+        <div class=" modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="row align-items-center text-center flex-column">
+
+                                    <div class="modal-body">
+                                        <h3 class="welcome  text-center SignInOutFormstyle__Heading-w9z0ip-4 dUkJlM">
+                                            Welcome Back
+                                        </h3>
+                                        <h3 class="signup2  text-center SignInOutFormstyle__Heading-w9z0ip-4 dUkJlM"
+                                            style="display: none;">Sign Up</h3>
+                                        <p class=" text-secondary">Login with your email & password</p>
+                                    </div>
+                                    <form id="form-join">
+                                        <small id="non_field_errors"></small>
+                                        <div class="form-data"
+                                            style="display: flex;flex-direction: column;justify-content: center;text-align: left;">
+                                            <input class="joinj form-control" name="username" type="text"
+                                                placeholder="Username">
+                                            <small class="mb-2" style="color: red"></small>
+                                        </div>
+
+                                        <div class="form-data"
+                                            style="display: flex;flex-direction: column;justify-content: center;text-align: left;">
+                                            <input class="joinj form-control" name="password" type="password" id=""
+                                                placeholder="Password">
+                                            <small class="mb-2" style="color: red"></small>
+                                        </div>
+
+
+
+                                        <input type="submit" class=" jbutton" value="Daxil ol">
+                                    </form>
+
+                                    <form id="form-join2" style="display: none">
+                                        <small id="non_field_errors2"></small>
+                                        <div class="form-data"
+                                            style="display: flex;flex-direction: column;justify-content: center;text-align: left;">
+                                            <input class="joinj form-control" name="username" type="text"
+                                                placeholder="Username">
+                                            <small class="mb-2 small" style="color: red"></small>
+                                        </div>
+                                        <div class="form-data">
+                                            <div
+                                                style="display: flex;flex-direction: column;justify-content: center;text-align: left;">
+                                                <input class="joinj form-control" name="email" type="text"
+                                                    placeholder="Email">
+                                                <small class="mb-2 small" style="color: red"></small>
+                                            </div>
+                                        </div>
+                                        <div class="form-data"
+                                            style="display: flex;flex-direction: column;justify-content: center;text-align: left;">
+                                            <input class="joinj form-control" name="password" type="password" id=""
+                                                placeholder="Password">
+                                            <small class="mb-2 small" style="color: red"></small>
+                                        </div>
+                                        <div class="form-data ">
+                                            <div
+                                                style="display: flex;flex-direction: column;justify-content: center;text-align: left;">
+                                                <input class="joinj form-control" name="first_name" type="text"
+                                                    placeholder="First Name">
+                                                <small class="mb-2 small" style="color: red"></small>
+                                            </div>
+                                        </div>
+                                        <div class="form-data">
+                                            <div
+                                                style="display: flex;flex-direction: column;justify-content: center;text-align: left;">
+                                                <input class="joinj form-control" name="last_name" type="text"
+                                                    placeholder="Last Name">
+                                                <small class="mb-2 small" style="color: red"></small>
+                                            </div>
+                                        </div>
+
+
+                                        <input type="submit" class=" jbutton" value="Continue">
+                                    </form>
+
+                                    <p class="font-weight-bold class-link-join"><span class="q1-modal">Don't have any
+                                            account?</span>
+                                        <span class="q2-modal" style="display: none">Already have an account?</span> <a
+                                            class="linkjoin" href="">Sign Up</a> </p>
+                                    <p class=" font-weight-bold reset-modal">Forgot your password? <a class="joinfooter"
+                                            href="">Reset
+                                            It</a></p>
+                                </div>
+                                <div class="modal-footer">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
     </header>
 
     <!-- .........................................................................CAROUSEL............................................................. -->
@@ -809,12 +1209,12 @@
         <div id="owl-carousel-first" class="owl-carousel-all owl-carousel owl-theme">
             <div class="item">
                 <div class="position-relative">
-                    <img height="450px" src="assets/images/Untitled-1(3).jpeg" alt="">
+                    <img src="assets/images/Untitled-1(3).jpeg" alt="">
                 </div>
             </div>
             <div class="item">
                 <div class="position-relative">
-                    <img height="450px" src="assets/images/Untitled-1(3).jpeg" alt="">
+                    <img src="assets/images/Untitled-1(3).jpeg" alt="">
                 </div>
             </div>
         </div>
@@ -1152,6 +1552,10 @@
 
 
                 </ul>
+
+                <div class="view-all">
+                    <a href="">Hamisina Bax</a>
+                </div>
 
             </div>
         </div>
@@ -2014,13 +2418,13 @@
                     <div class="banner-output w-100 h-100">REKLAM</div>
                 </a>
             </div>
-            <div class="col-6 p-0 pl-2 ">
+            <div class="col-6 p-0 pl-2 " style="height: 200px">
                 <div class="news-subscriber w-100 h-100" style="box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.176)">
                     <h3>Kampaniyalardan və aksiyalardan xəbərdar ol </h3>
 
                     <form method="POST" class="subscribe-form w-100 mt-2">
-                        <div style="border-bottom:solid 1px rgba(64,72,78,.12);display:inline-block !important;font-family: MavenPro-Bold;"
-                            class="form-group d-flex">
+                        <div style="border-bottom:solid 1px rgba(64,72,78,.12);display:inline-block;font-family: MavenPro-Bold;"
+                            class="form-group">
                             <input style="border:none" type="email" placeholder="Email daxil edin">
 
                             <input style="background: #5ec56f" type="submit" value="Göndər"
@@ -2044,7 +2448,7 @@
 
             <div class="item p-2" style="box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.176);">
                 <div class="position-relative">
-                    <img height="100px" src="assets/images/Untitled-1(3).jpeg" alt="">
+                    <img height="150px" src="assets/images/Untitled-1(3).jpeg" alt="">
                     <h5>Kiçik evlər üçün kreslolar</h5>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia atque modi dolorem impedit?
                         Nostrum, accusantium pariatur ab quibusdam natus optio praesentium ipsa fugit velit at
@@ -2052,9 +2456,10 @@
                     <a class="read-more-blog px-3 py-2 border-none rounded" href="">Davamini oxu</a>
                 </div>
             </div>
+
             <div class="item p-2" style="box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.176);">
                 <div class="position-relative">
-                    <img height="100px" src="assets/images/Untitled-1(3).jpeg" alt="">
+                    <img height="150px" src="assets/images/Untitled-1(3).jpeg" alt="">
                     <h5>Kiçik evlər üçün kreslolar</h5>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia atque modi dolorem impedit?
                         Nostrum, accusantium pariatur ab quibusdam natus optio praesentium ipsa fugit velit at
@@ -2062,9 +2467,10 @@
                     <a class="read-more-blog px-3 py-2 border-none rounded" href="">Davamini oxu</a>
                 </div>
             </div>
+
             <div class="item p-2" style="box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.176);">
                 <div class="position-relative">
-                    <img height="100px" src="assets/images/Untitled-1(3).jpeg" alt="">
+                    <img height="150px" src="assets/images/Untitled-1(3).jpeg" alt="">
                     <h5>Kiçik evlər üçün kreslolar</h5>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia atque modi dolorem impedit?
                         Nostrum, accusantium pariatur ab quibusdam natus optio praesentium ipsa fugit velit at
@@ -2072,9 +2478,10 @@
                     <a class="read-more-blog px-3 py-2 border-none rounded" href="">Davamini oxu</a>
                 </div>
             </div>
+
             <div class="item p-2" style="box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.176);">
                 <div class="position-relative">
-                    <img height="100px" src="assets/images/Untitled-1(3).jpeg" alt="">
+                    <img height="150px" src="assets/images/Untitled-1(3).jpeg" alt="">
                     <h5>Kiçik evlər üçün kreslolar</h5>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia atque modi dolorem impedit?
                         Nostrum, accusantium pariatur ab quibusdam natus optio praesentium ipsa fugit velit at
@@ -2082,9 +2489,10 @@
                     <a class="read-more-blog px-3 py-2 border-none rounded" href="">Davamini oxu</a>
                 </div>
             </div>
+
             <div class="item p-2" style="box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.176);">
                 <div class="position-relative">
-                    <img height="100px" src="assets/images/Untitled-1(3).jpeg" alt="">
+                    <img height="150px" src="assets/images/Untitled-1(3).jpeg" alt="">
                     <h5>Kiçik evlər üçün kreslolar</h5>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia atque modi dolorem impedit?
                         Nostrum, accusantium pariatur ab quibusdam natus optio praesentium ipsa fugit velit at
@@ -2092,16 +2500,7 @@
                     <a class="read-more-blog px-3 py-2 border-none rounded" href="">Davamini oxu</a>
                 </div>
             </div>
-            <div class="item p-2" style="box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.176);">
-                <div class="position-relative">
-                    <img height="100px" src="assets/images/Untitled-1(3).jpeg" alt="">
-                    <h5>Kiçik evlər üçün kreslolar</h5>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia atque modi dolorem impedit?
-                        Nostrum, accusantium pariatur ab quibusdam natus optio praesentium ipsa fugit velit at
-                        distinctio veniam expedita harum vel!</p>
-                    <a class="read-more-blog px-3 py-2 border-none rounded" href="">Davamini oxu</a>
-                </div>
-            </div>
+
         </div>
 
 
@@ -2198,7 +2597,7 @@
         <div class="row main_product_output ">
             <div class="main_product_products_output_title">Ehome.az Haqqında</div>
         </div>
-        <div style="height:80px;overflow-y:scroll">
+        <div class="px-2" style="height:80px;overflow-y:scroll;box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.176);">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita consequatur corrupti provident
                 perspiciatis fugiat, fuga laudantium molestiae dignissimos deserunt explicabo, ipsam odio blanditiis
                 ullam. Ullam amet dolorum placeat earum! Delectus.
@@ -2222,9 +2621,9 @@
     <footer class="mt-4 footer-section">
         <div class="footer-site">
             <div class="row">
-                <div class="col-7">
-                    <div class="row">
-                        <div class="col-4">
+                <div class="col-12">
+                    <div class="row info-detail">
+                        <div class="col-3">
                             <h5 class="mb-3 main-name">Ehome.az</h5>
                             <ul class="footer-sublist">
                                 <li>
@@ -2244,7 +2643,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-4">
+                        <div class="col-3">
                             <h5 class="mb-3">Musteri ucun</h5>
                             <ul class="footer-sublist">
                                 <li>
@@ -2262,7 +2661,7 @@
                             </ul>
                         </div>
 
-                        <div class="col-4">
+                        <div class="col-3">
                             <h5 class="mb-3">Musteri ucun</h5>
                             <ul class="footer-sublist">
                                 <li>
@@ -2279,9 +2678,33 @@
                                 </li>
                             </ul>
                         </div>
+                        <div class="col-3">
+                            <h5 class="mb-3">Elaqe</h5>
+                            <ul class="footer-sublist footer-sublist-info">
+                                <li>
+                                    <a href="">Unvan: Baki seheri</a>
+                                </li>
+                                <li>
+                                    <a href="">Telefon: 050 490 89 65</a>
+                                </li>
+                                <li>
+                                    <a href="">Email: sardarlisamir@gmail.com</a>
+                                </li>
+                            </ul>
+                            <h5>Bizi izleyin</h5>
+                            <form method="POST" class="subscribe-form w-100 mt-2">
+                                <div style="border-radius:5px;font-family: MavenPro-Bold;"
+                                    class="bg-white form-group d-flex">
+                                    <input class="input-email" type="email" placeholder="Email daxil edin">
+
+                                    <input style="background: #5ec56f" type="submit" value="Abune ol"
+                                        class="submit px-3 py-2 border-0 rounded text-light">
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
-                <div class="col-5">
+                <!-- <div class="col-5">
                     <div class="row">
                         <div class="col-3"></div>
                         <div class="col-9">
@@ -2302,21 +2725,66 @@
                                     <div style="border-radius:5px;display:inline-block !important;font-family: MavenPro-Bold;" class="bg-white form-group d-flex">
                                         <input style="border:none;padding-left:5px;" type="email" placeholder="Email daxil edin">
             
-                                        <input style="background: #5ec56f" type="submit" value="Abune ol" class="submit px-3 ml-2 py-2 border-0 rounded text-light">
+                                        <input style="background: #5ec56f" type="submit" value="Abune ol" class="submit px-3 py-2 border-0 rounded text-light">
                                     </div>
                                 </form>
                         </div>
                     </div>
 
+                </div> -->
+            </div>
+            <hr style="border-bottom:solid 1px rgba(64,72,78,.12);">
+            <div class="d-flex justify-content-between social-card">
+                <div class="d-flex align-items-center social-sites">
+                    <h5 class="mr-3">Biz sosial shebekelerde</h5>
+                    <a class="mr-2" title="Facebook" href="">
+                        <img src="assets/images/facebook.svg" alt="">
+                    </a>
+                    <a class="mr-2" title="Instagram" href="">
+                        <img src="assets/images/instagram.svg" alt="">
+                    </a>
+                    <a class="mr-2" title="Twitter" href="">
+                        <img src="assets/images/twitter.svg" alt="">
+                    </a>
+                    <a class="mr-2" title="Linkedin" href="">
+                        <img src="assets/images/linkedin.svg" alt="">
+                    </a>
+                    <a class="mr-2" title="Youtube" href="">
+                        <img src="assets/images/youtube.svg" alt="">
+                    </a>
+                    <a title="Whatsapp" href="https://api.whatsapp.com/send?phone=15551234567">
+                        <img src="assets/images/wp.jpg" alt="">
+                    </a>
+                </div>
+                <div class="d-flex align-items-center bank-cards">
+                    <a class="mr-2" href="">
+                        <img src="assets/images/card.png" alt="">
+                    </a>
+
+                    <a class="mr-2" href="">
+                        <img src="assets/images/card.png" alt="">
+                    </a>
+
+                    <a class="mr-2" href="">
+                        <img src="assets/images/card.png" alt="">
+                    </a>
+
+                    <a class="mr-2" href="">
+                        <img src="assets/images/card.png" alt="">
+                    </a>
+                    <a class="mr-2" href="">
+                        <img src="assets/images/card.png" alt="">
+                    </a>
+                    <a class="mr-2" href="">
+                        <img src="assets/images/card.png" alt="">
+                    </a>
+                    <a class="" href="">
+                        <img src="assets/images/card.png" alt="">
+                    </a>
+
                 </div>
             </div>
-            <hr>
-            <div class="d-flex justify-content-between">
-                <div class="d-flex">
-                    <p>Biz sosial shebekelerde</p>
-                    <a href=""></a>
-                </div>
-            </div>
+            <hr style="border-bottom:solid 1px rgba(64,72,78,.12);">
         </div>
     </footer>
     <!-- ............................................................................................ -->
