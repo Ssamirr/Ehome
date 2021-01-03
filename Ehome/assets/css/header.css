@@ -1272,28 +1272,43 @@ body.overflow_hidden {
 
   @media screen and (max-width: 550px){
     .hamburder_menu_column{
-        width: 8%;
+        width: 9%;
     }
 
     .mobile_layout_wrapper .logo_column{
-        width: 28%;
+        width: 30%;
     }
 
     .call-center-mobile{
-        width: 50%;
+        width: 48%;
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center;
     }
 
     .mobile_layout_wrapper .main_header_wrapper .main_header_inner .shortcut_icons_column{
-        width: 22%;
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mobile_layout_wrapper .main_header_wrapper .main_header_inner .shortcut_icons_column ul{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
     }
     .mobile_layout_wrapper .main_header_wrapper .main_header_inner .shortcut_icons_column i{
         font-size: 20px !important;
     }
     .mobile_layout_wrapper .main_header_wrapper .main_header_inner .shortcut_icons_column li{
         margin-right: 5px !important;
+    }
+    .mobile_layout_wrapper .main_header_wrapper .main_header_inner .shortcut_icons_column ul li{
+        display: block;
+        margin-bottom: 5px;
+        margin-right: 0px !important;
     }
     .number-company-mobile{
         font-size: 13px !important;

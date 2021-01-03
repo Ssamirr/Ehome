@@ -121,21 +121,35 @@ body{
     transition: all .3s ease;
 }
 
-#carousel:hover .owl-nav .owl-prev,#carousel:hover .owl-nav .owl-next, #owl-carousel-blog:hover .owl-nav .owl-prev, #owl-carousel-blog:hover .owl-nav .owl-next,  #owl-carousel-partner:hover .owl-nav .owl-prev, #owl-carousel-partner:hover .owl-nav .owl-next{
+#carousel:hover .owl-nav .owl-prev,#carousel:hover .owl-nav .owl-next, #owl-carousel-blog:hover .owl-nav .owl-prev, #owl-carousel-blog:hover .owl-nav .owl-next,  #owl-carousel-partner:hover .owl-nav .owl-prev, #owl-carousel-partner:hover .owl-nav .owl-next, #owl-carousel-category:hover .owl-nav .owl-prev, #owl-carousel-category:hover .owl-nav .owl-next{
     opacity: 1;
     -webkit-transition: all 0.5s ease !important;
     -o-transition: all 0.5s ease !important;
     transition: all 0.5s ease !important;
 }
 
-#carousel .owl-nav .owl-prev:hover,#carousel .owl-nav .owl-next:hover, #owl-carousel-blog .owl-nav .owl-prev:hover, #owl-carousel-blog .owl-nav .owl-next:hover,  #owl-carousel-partner .owl-nav .owl-prev:hover, #owl-carousel-partner .owl-nav .owl-next:hover{
+#carousel .owl-nav .owl-prev:hover,#carousel .owl-nav .owl-next:hover, #owl-carousel-blog .owl-nav .owl-prev:hover, #owl-carousel-blog .owl-nav .owl-next:hover,  #owl-carousel-partner .owl-nav .owl-prev:hover, #owl-carousel-partner .owl-nav .owl-next:hover,  #owl-carousel-category .owl-nav .owl-prev:hover, #owl-carousel-category .owl-nav .owl-next:hover{
     background: white !important;  
     color: #333 !important;
     text-decoration: none;
 }
-.owl-carousel-all .owl-nav .owl-prev span,.owl-carousel-all .owl-nav .owl-next span{
+
+.owl-carousel-all .owl-nav .owl-prev, .owl-carousel-all .owl-nav .owl-next {
+    width: 30px;
+    height: 30px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .owl-carousel-all .owl-nav .owl-prev span, .owl-carousel-all .owl-nav .owl-next span {
+    font-size: 15px !important;
+    margin-bottom: 3px;
+  }
+
+/* .owl-carousel-all .owl-nav .owl-prev span,.owl-carousel-all .owl-nav .owl-next span{
     font-size: 23px;
-}
+} */
 
 .owl-carousel-all  .owl-dots{
     position: absolute;
@@ -617,9 +631,17 @@ body .overlay_site .element .anime {
 
 #owl-carousel-blog{
     margin: auto;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.176);
 }
 
 #owl-carousel-partner{
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.176);
+    margin: auto;
+}
+
+#owl-carousel-category{
+    /* box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.176); */
+    background: white;
     margin: auto;
 }
 
@@ -671,6 +693,9 @@ body .overlay_site .element .anime {
         width: 1120px;
     }
     #owl-carousel-partner{
+        width: 1120px;
+    }
+    #owl-carousel-category{
         width: 1120px;
     }
     .about-site{
