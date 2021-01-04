@@ -23,16 +23,17 @@ $('#owl-carousel-blog').owlCarousel({
         0:{
             items:1,
         },
-        452:{
+        500:{
             items:2,
         },
-        677:{
+        700:{
             items:3,
         },
         769:{
             nav:true,
+            items:3,
         },
-        900:{
+        1000:{
             nav:true,
             items:4,
         }
@@ -51,24 +52,24 @@ $('#owl-carousel-partner').owlCarousel({
             items:3,
         },
         361:{
-            items:4,
+            items:3,
         },
         470:{
-            items:5,
+            items:4,
         },
         644:{
-            items:6,
+            items:5,
         },
         769:{
             nav:true,
         },
         800:{
             nav:true,
-            items:7,
+            items:6,
         },
         1120:{
             nav:true,
-            items:8,
+            items:7,
         }
         
     }

@@ -1034,10 +1034,6 @@ ul{
     color: #fff;
 }
 
-.menu__item a .arrow.open {
-    background-position: -280px 0;
-}
-
 .mobile_layout_wrapper .menu-content .menu .to-left-ul .menu__sub-menu {
     background-color: #fff;
 }
