@@ -871,31 +871,31 @@ body .item-stock.js-show-stores:hover .value {
 color: #333;
 }
 
-.article_block, .catalog_block .item-stock {
+/* .article_block, .catalog_block .item-stock {
 display: inline-block;
 margin: 0 8px;
 vertical-align: middle;
-}
+} */
 
-.font_sxs {
+/* .font_sxs {
 font-size: 13px;
 line-height: 1.692em;
-}
+} */
 
-.muted {
+/* .muted {
 color: #999;
-}
+} */
 
 .cost.prices {
 margin-top: 12px;
 padding-top: 7px;
 min-height: 40px;
 position: relative;
-height: 80px !important;
+height: 60px !important;
 }
 
 .sa_block{
-height: 120px !important;
+height: 100px !important;
 }
 
 .clearfix::after, .clearfix::before {
@@ -906,7 +906,7 @@ display: table;
 .icons-basket-wrapper {
 position: absolute;
 right: -35px;
-top: 0;
+top: 8px;
 }
 
 .button_block {
