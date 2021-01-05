@@ -171,7 +171,7 @@ document.querySelectorAll('.queue-type-list-mobile').forEach(function(element){
         })
     })
 
-    $(".slider-rangee").slider({
+    $("#slider-range").slider({
         range: true,
         orientation: "horizontal",
         min: 0,
@@ -183,102 +183,102 @@ document.querySelectorAll('.queue-type-list-mobile').forEach(function(element){
           if (ui.values[0] == ui.values[1]) {
             return false;
           }
-        // let e = this.closest('.filterr-range-container')
-        // console.log(e)
-        //   $("#min_filterr").val(ui.values[0]);
-        //   $("#max_filterr").val(ui.values[1]);
+        let e = this.closest('.filterr-range-container')
+        console.log(e)
+          $("#min_filterr").val(ui.values[0]);
+          $("#max_filterr").val(ui.values[1]);
         }
       });
 
-      // $("#slider-range2").slider({
-      //   range: true,
-      //   orientation: "horizontal",
-      //   min: 0,
-      //   max: 10000,
-      //   values: [0, 10000],
-      //   step: 100,
+      $("#slider-range2").slider({
+        range: true,
+        orientation: "horizontal",
+        min: 0,
+        max: 10000,
+        values: [0, 10000],
+        step: 100,
       
-      //   slide: function (event, ui) {
-      //     if (ui.values[0] == ui.values[1]) {
-      //       return false;
-      //     }
+        slide: function (event, ui) {
+          if (ui.values[0] == ui.values[1]) {
+            return false;
+          }
           
-      //     $("#min_filterr2").val(ui.values[0]);
-      //     $("#max_filterr2").val(ui.values[1]);
-      //   }
-      // });
+          $("#min_filterr2").val(ui.values[0]);
+          $("#max_filterr2").val(ui.values[1]);
+        }
+      });
 
-      // $("#slider-range3").slider({
-      //   range: true,
-      //   orientation: "horizontal",
-      //   min: 0,
-      //   max: 10000,
-      //   values: [0, 10000],
-      //   step: 100,
+      $("#slider-range3").slider({
+        range: true,
+        orientation: "horizontal",
+        min: 0,
+        max: 10000,
+        values: [0, 10000],
+        step: 100,
       
-      //   slide: function (event, ui) {
-      //     if (ui.values[0] == ui.values[1]) {
-      //       return false;
-      //     }
+        slide: function (event, ui) {
+          if (ui.values[0] == ui.values[1]) {
+            return false;
+          }
           
-      //     $("#min_filterr3").val(ui.values[0]);
-      //     $("#max_filterr3").val(ui.values[1]);
-      //   }
-      // });
+          $("#min_filterr3").val(ui.values[0]);
+          $("#max_filterr3").val(ui.values[1]);
+        }
+      });
 
-      // $("#slider-range4").slider({
-      //   range: true,
-      //   orientation: "horizontal",
-      //   min: 0,
-      //   max: 10000,
-      //   values: [0, 10000],
-      //   step: 100,
+      $("#slider-range4").slider({
+        range: true,
+        orientation: "horizontal",
+        min: 0,
+        max: 10000,
+        values: [0, 10000],
+        step: 100,
       
-      //   slide: function (event, ui) {
-      //     if (ui.values[0] == ui.values[1]) {
-      //       return false;
-      //     }
+        slide: function (event, ui) {
+          if (ui.values[0] == ui.values[1]) {
+            return false;
+          }
           
-      //     $("#min_filterr4").val(ui.values[0]);
-      //     $("#max_filterr4").val(ui.values[1]);
-      //   }
-      // });
+          $("#min_filterr4").val(ui.values[0]);
+          $("#max_filterr4").val(ui.values[1]);
+        }
+      });
 
-      // $("#slider-range5").slider({
-      //   range: true,
-      //   orientation: "horizontal",
-      //   min: 0,
-      //   max: 10000,
-      //   values: [0, 10000],
-      //   step: 100,
+      $("#slider-range5").slider({
+        range: true,
+        orientation: "horizontal",
+        min: 0,
+        max: 10000,
+        values: [0, 10000],
+        step: 100,
       
-      //   slide: function (event, ui) {
-      //     if (ui.values[0] == ui.values[1]) {
-      //       return false;
-      //     }
+        slide: function (event, ui) {
+          if (ui.values[0] == ui.values[1]) {
+            return false;
+          }
           
-      //     $("#min_filterr5").val(ui.values[0]);
-      //     $("#max_filterr5").val(ui.values[1]);
-      //   }
-      // });
+          $("#min_filterr5").val(ui.values[0]);
+          $("#max_filterr5").val(ui.values[1]);
+        }
+      });
 
-      // $("#slider-range6").slider({
-      //   range: true,
-      //   orientation: "horizontal",
-      //   min: 0,
-      //   max: 10000,
-      //   values: [0, 10000],
-      //   step: 100,
+      $("#slider-range6").slider({
+        range: true,
+        orientation: "horizontal",
+        min: 0,
+        max: 10000,
+        values: [0, 10000],
+        step: 100,
       
-      //   slide: function (event, ui) {
-      //     if (ui.values[0] == ui.values[1]) {
-      //       return false;
-      //     }
+        slide: function (event, ui) {
+          if (ui.values[0] == ui.values[1]) {
+            return false;
+          }
           
-      //     $("#min_filterr6").val(ui.values[0]);
-      //     $("#max_filterr6").val(ui.values[1]);
-      //   }
-      // });
+          $("#min_filterr6").val(ui.values[0]);
+          $("#max_filterr6").val(ui.values[1]);
+        }
+      });
 
       $('#owl-carousel-last-viewed-item').owlCarousel({
         loop:false,

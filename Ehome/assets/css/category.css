@@ -1560,6 +1560,14 @@ letter-spacing: .7px !important;
 color: #40484e !important;
 }
 
+.inputs_wrapper .measurement-unit{
+  font-family: MavenPro-SemiBold;
+  font-size: 14px;
+  position: absolute;
+  top: 8px;
+  right: -20px;
+}
+
 
 
 
