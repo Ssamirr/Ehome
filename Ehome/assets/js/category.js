@@ -28,14 +28,10 @@ $(document).ready(function() {
     if(! e.target.closest('.queue-dropdown')){
       document.querySelector('.queue-dropdown-list').classList.remove('d-block')
       document.querySelector('.queue-dropdown-list').classList.add('d-none')
-      // document.querySelector('.queue-dropdown-list').closest('.header-tag-filter').querySelector('i').classList.add('fa-caret-down')
-      // document.querySelector('.queue-dropdown-list').closest('.header-tag-filter').querySelector('i').classList.remove('fa-caret-up')
     }
     if(! e.target.closest('.queue-dropdown-mobile')){
       document.querySelector('.queue-dropdown-list-mobile').classList.remove('d-block')
       document.querySelector('.queue-dropdown-list-mobile').classList.add('d-none')
-      // document.querySelector('.queue-dropdown-list').closest('.header-tag-filter').querySelector('i').classList.add('fa-caret-down')
-      // document.querySelector('.queue-dropdown-list').closest('.header-tag-filter').querySelector('i').classList.remove('fa-caret-up')
     }
   }
 

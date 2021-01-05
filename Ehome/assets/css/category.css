@@ -1299,7 +1299,7 @@ width: 100%;
 background-color: #fff;
 display: inline-block;
 position: relative;
-height: calc(100% - 65px);
+height: calc(100% - 180px);
 overflow-y: scroll;
 }
 
@@ -1618,6 +1618,10 @@ width: 1120px;
   margin-bottom: 45px;
 }
 #carousel_last_viewed_item{
+  margin-right: 15px;
+  margin-left: 15px;
+}
+#carousel_categories{
   margin-right: 15px;
   margin-left: 15px;
 }
