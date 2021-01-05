@@ -151,17 +151,21 @@ $('.linkjoin').click(function (click) {
         })
 
     })
-
-    document.querySelector('.all-popular-categories-view').addEventListener('click',function(){
+    if(document.querySelector('.all-popular-categories-view')){
+        document.querySelector('.all-popular-categories-view').addEventListener('click',function(){
         document.querySelector('.popular_categories_widget_ul').style.maxHeight="100%";
         document.querySelector('.all-popular-categories-view').style.display="none"
         document.querySelector('.not-all-popular-categories-view').style.display="block"
     })
+    }
 
-    document.querySelector('.not-all-popular-categories-view').addEventListener('click',function(){
+    if(document.querySelector('.not-all-popular-categories-view')){
+        document.querySelector('.not-all-popular-categories-view').addEventListener('click',function(){
         document.querySelector('.popular_categories_widget_ul').style.maxHeight="640px";
         document.querySelector('.not-all-popular-categories-view').style.display="none"
         document.querySelector('.all-popular-categories-view').style.display="block"
     })
+    }
+
 
 });

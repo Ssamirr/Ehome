@@ -1210,7 +1210,6 @@ line-height: 30px !important;
 
 
 .filter-panel-opener a{
-opacity: 0.7;;
 text-decoration: none;
 color: #40484e;
 font-family: MavenPro-Semibold;
@@ -1664,9 +1663,6 @@ display: -webkit-box;
 display: -ms-flexbox;
 display: flex;
 
-}
-.queue-dropdown-featured-mobile{
-opacity: 0.7;
 }
 .category_page_wrapper .category_page_container .product_filters_wrapper_desktop{
   display: none;
