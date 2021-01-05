@@ -229,6 +229,60 @@ document.querySelectorAll('.queue-type-list-mobile').forEach(function(element){
         }
       });
 
+      $("#slider-range4").slider({
+        range: true,
+        orientation: "horizontal",
+        min: 0,
+        max: 10000,
+        values: [0, 10000],
+        step: 100,
+      
+        slide: function (event, ui) {
+          if (ui.values[0] == ui.values[1]) {
+            return false;
+          }
+          
+          $("#min_filterr4").val(ui.values[0]);
+          $("#max_filterr4").val(ui.values[1]);
+        }
+      });
+
+      $("#slider-range5").slider({
+        range: true,
+        orientation: "horizontal",
+        min: 0,
+        max: 10000,
+        values: [0, 10000],
+        step: 100,
+      
+        slide: function (event, ui) {
+          if (ui.values[0] == ui.values[1]) {
+            return false;
+          }
+          
+          $("#min_filterr5").val(ui.values[0]);
+          $("#max_filterr5").val(ui.values[1]);
+        }
+      });
+
+      $("#slider-range6").slider({
+        range: true,
+        orientation: "horizontal",
+        min: 0,
+        max: 10000,
+        values: [0, 10000],
+        step: 100,
+      
+        slide: function (event, ui) {
+          if (ui.values[0] == ui.values[1]) {
+            return false;
+          }
+          
+          $("#min_filterr6").val(ui.values[0]);
+          $("#max_filterr6").val(ui.values[1]);
+        }
+      });
+
       $('#owl-carousel-last-viewed-item').owlCarousel({
         loop:false,
         margin:9,

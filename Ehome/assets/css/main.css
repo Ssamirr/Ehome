@@ -5,6 +5,13 @@
 * Browsers: last 4 version
 */
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @font-face {
     font-family: MavenPro-Regular;
     src: url(../fonts/MavenPro-Regular.ttf);
@@ -137,9 +144,15 @@ body{
 .owl-carousel-all .owl-nav .owl-prev, .owl-carousel-all .owl-nav .owl-next {
     width: 30px;
     height: 30px;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
     display: flex !important;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 
   .owl-carousel-all .owl-nav .owl-prev span, .owl-carousel-all .owl-nav .owl-next span {
@@ -225,6 +238,9 @@ body{
     width: 100%;
     padding: 0;
     margin: 0;
+    -webkit-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+    transition: 0.5s all ease;
 }
 
 .popular_categories_widget_output .popular_categories_inner .popular_categories_widget_ul li {
@@ -520,8 +536,8 @@ body{
     display: inline-block;
     content: "";
     background: #2b3135;
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(56%, rgba(255, 255, 255, 0)), color-stop(92%, rgba(43, 49, 53, 0.82)));
     background: -o-linear-gradient(top, rgba(255, 255, 255, 0) 56%, rgba(43, 49, 53, 0.82) 92%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(56%, rgba(255, 255, 255, 0)), color-stop(92%, rgba(43, 49, 53, 0.82)));
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 56%, rgba(43, 49, 53, 0.82) 92%);
     mix-blend-mode: multiply;
     z-index: 2;
@@ -550,8 +566,8 @@ body{
 }
 
 body #scroll_top {
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
     border-radius: 100%;
     background: #5ec56f;
     overflow: hidden;
@@ -631,11 +647,13 @@ body .overlay_site .element .anime {
 
 #owl-carousel-blog{
     margin: auto;
-    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.176);
+    -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.176);
+            box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.176);
 }
 
 #owl-carousel-partner{
-    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.176);
+    -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.176);
+            box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.176);
     margin: auto;
 }
 
@@ -682,18 +700,26 @@ body .overlay_site .element .anime {
 }
 
 .all-images{
-    object-fit: cover;
-    object-position: center;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
     width: 100%;
     height: 100%;
 }
 
 .modal-view{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     /* width: 100%; */
     height: 100%;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 
