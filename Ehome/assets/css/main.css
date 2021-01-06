@@ -97,7 +97,7 @@ body{
     text-align: center;
     margin: 0;
     color: white !important;
-    background-color: #5ec56f !important;
+    background-color: #49bd68 !important;
     border-radius: 50%;
     -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.15);
             box-shadow: 0 2px 5px 0 rgba(0,0,0,.15);
@@ -118,7 +118,7 @@ body{
     text-align: center;
     margin: 0;
     color: white !important;
-    background-color: #5ec56f !important;
+    background-color: #49bd68 !important;
     border-radius: 50%;
     -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.15);
             box-shadow: 0 2px 5px 0 rgba(0,0,0,.15);
@@ -175,7 +175,7 @@ body{
 }
 
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-    background: #5ec56f;
+    background: #49bd68;
 }
 
 .company-services{
@@ -569,7 +569,7 @@ body #scroll_top {
     width: 40px;
     height: 40px;
     border-radius: 100%;
-    background: #5ec56f;
+    background: #49bd68;
     overflow: hidden;
     cursor: pointer;
     -webkit-box-align: center;
@@ -668,7 +668,7 @@ body .overlay_site .element .anime {
 }
 
 .read-more-blog{
-    background: #5ec56f;
+    background: #49bd68;
     color: white;
     font-family: MavenPro-SemiBold;
 }
@@ -689,7 +689,7 @@ body .overlay_site .element .anime {
 }
 
 .view-all a{
-    color: #5ec56f;
+    color: #49bd68;
     text-decoration: underline;
     font-family: MavenPro-SemiBold;
     font-size: 14px;

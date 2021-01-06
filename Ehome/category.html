@@ -1353,7 +1353,7 @@
                                     </div>
                                     <ul class="mobile-filter-option-list for-range">
                                         <li>
-                                            <div class="filter_container">
+                                            <div class="filter_container for-js-range">
                                                 <div class="d-flex flex-column align-items-center justify-content-center">
                                                     <div class="range-filter-name">Genishlik</div>
                                                     <div id="slider-range4" class="slider-rangee filter-mobile-range filterr-filter-range"
@@ -1362,10 +1362,10 @@
                                                     <div class="inputs_wrapper position-relative">
                                                         <input type="number" min=0 max="9900"
                                                             oninput="validity.valid||(value='0');" id="min_filterr4"
-                                                            class="filterr-range-field" />
+                                                            class="filterr-range-field min_filterr" />
                                                         <input type="number" min=0 max="10000"
                                                             oninput="validity.valid||(value='10000');" id="max_filterr4"
-                                                            class="filterr-range-field" />
+                                                            class="filterr-range-field max_filterr" />
                                                             <div class="measurement-unit">cm</div>
                                                     </div>
                                                 </div>
@@ -1375,7 +1375,7 @@
                                         </li>
 
                                         <li>
-                                                <div class="filter_container">
+                                                <div class="filter_container for-js-range">
                                                     <div class="d-flex flex-column align-items-center justify-content-center">
                                                         <div class="range-filter-name">Genishlik</div>
                                                         <div id="slider-range5" class="slider-rangee filter-mobile-range filterr-filter-range"
@@ -1384,10 +1384,10 @@
                                                         <div class="inputs_wrapper position-relative">
                                                             <input type="number" min=0 max="9900"
                                                                 oninput="validity.valid||(value='0');" id="min_filterr5"
-                                                                class="filterr-range-field" />
+                                                                class="filterr-range-field min_filterr" />
                                                             <input type="number" min=0 max="10000"
                                                                 oninput="validity.valid||(value='10000');" id="max_filterr5"
-                                                                class="filterr-range-field" />
+                                                                class="filterr-range-field max_filterr" />
     
                                                                 <div class="measurement-unit">cm</div>
     
@@ -1399,7 +1399,7 @@
                                             </li>
 
                                             <li>
-                                                    <div class="filter_container">
+                                                    <div class="filter_container for-js-range">
                                                         <div class="d-flex flex-column align-items-center justify-content-center">
                                                             <div class="range-filter-name">Genishlik</div>
                                                             <div id="slider-range6" class="slider-rangee filter-mobile-range filterr-filter-range"
@@ -1408,10 +1408,10 @@
                                                             <div class="inputs_wrapper position-relative">
                                                                 <input type="number" min=0 max="9900"
                                                                     oninput="validity.valid||(value='0');" id="min_filterr6"
-                                                                    class="filterr-range-field" />
+                                                                    class="filterr-range-field min_filterr" />
                                                                 <input type="number" min=0 max="10000"
                                                                     oninput="validity.valid||(value='10000');" id="max_filterr6"
-                                                                    class="filterr-range-field" />
+                                                                    class="filterr-range-field max_filterr" />
                                                                     <div class="measurement-unit">cm</div>
         
                                                             </div>
@@ -1790,7 +1790,7 @@
                                     <ul class="filter_list">
                                         <li class="filterr_filter">
                                             <div class="filterr-range-block">
-                                                <div class="filterr-range-container filterrrange">
+                                                <div class="filterr-range-container for-js-range filterrrange">
                                                     <div class="range-filter-name">Genishlik</div>
                                                     <div id="slider-range" class="slider-rangee filterr-filter-range"
                                                         name="rangeInput">
@@ -1798,24 +1798,16 @@
                                                     <div class="inputs_wrapper">
                                                         <input type="number" min=0 max="9900"
                                                             oninput="validity.valid||(value='0');" id="min_filterr"
-                                                            class="filterr-range-field" />
+                                                            class="filterr-range-field min_filterr" />
                                                         <input type="number" min=0 max="10000"
                                                             oninput="validity.valid||(value='10000');" id="max_filterr"
-                                                            class="filterr-range-field" />
-
-
-
-                                                        <input type="hidden" class="minvalue"
-                                                            name="override_filterr_min" value="">
-                                                        <input type="hidden" class="maxvalue"
-                                                            name="override_filterr_max" value="">
-
+                                                            class="filterr-range-field max_filterr" />
                                                     </div>
 
                                                 </div>
                                                 <div class="measurement-unit">cm</div>
 
-                                                <div class="filterr-range-container filterrrange">
+                                                <div class="filterr-range-container for-js-range filterrrange">
                                                     <div class="range-filter-name">Yukseklik</div>
                                                     <div id="slider-range2" class="slider-rangee filterr-filter-range"
                                                         name="rangeInput">
@@ -1823,10 +1815,10 @@
                                                     <div class="inputs_wrapper">
                                                         <input type="number" min=0 max="9900"
                                                             oninput="validity.valid||(value='0');" id="min_filterr2"
-                                                            class="filterr-range-field" />
+                                                            class="filterr-range-field min_filterr" />
                                                         <input type="number" min=0 max="10000"
                                                             oninput="validity.valid||(value='10000');" id="max_filterr2"
-                                                            class="filterr-range-field" />
+                                                            class="filterr-range-field max_filterr" />
 
 
 
@@ -1840,7 +1832,7 @@
                                                 </div>
                                                 <div class="measurement-unit">cm</div>
 
-                                                <div class="filterr-range-container filterrrange">
+                                                <div class="filterr-range-container for-js-range filterrrange">
                                                     <div class="range-filter-name">Derinlik</div>
                                                     <div id="slider-range3" class="slider-rangee filterr-filter-range"
                                                         name="rangeInput">
@@ -1848,10 +1840,10 @@
                                                     <div class="inputs_wrapper">
                                                         <input type="number" min=0 max="9900"
                                                             oninput="validity.valid||(value='0');" id="min_filterr3"
-                                                            class="filterr-range-field" />
+                                                            class="filterr-range-field min_filterr" />
                                                         <input type="number" min=0 max="10000"
                                                             oninput="validity.valid||(value='10000');" id="max_filterr3"
-                                                            class="filterr-range-field" />
+                                                            class="filterr-range-field max_filterr" />
 
 
 
@@ -2050,9 +2042,9 @@
                             </div>
                             <div class="sa_block" data-fields="null" data-stores="[]" data-user-fields="null"
                                 style="height: 44px;">
-                                <div class="item-stock js-show-stores js-show-info-block" data-id="5235"><span
+                                <!-- <div class="item-stock js-show-stores js-show-info-block" data-id="5235"><span
                                         class="icon stock"></span><span class="value font_sxs">Anbarda kifayət qədər
-                                        var.</span></div>
+                                        var.</span></div> -->
                                 <!-- <div class="article_block" data-name="Art." data-value="ASW-H09A4">
                                     <div class="muted font_sxs">Art.: ASW-H09A4</div>
                                 </div> -->
@@ -2178,9 +2170,9 @@
                             </div>
                             <div class="sa_block" data-fields="null" data-stores="[]" data-user-fields="null"
                                 style="height: 44px;">
-                                <div class="item-stock js-show-stores js-show-info-block" data-id="5235"><span
+                                <!-- <div class="item-stock js-show-stores js-show-info-block" data-id="5235"><span
                                         class="icon stock"></span><span class="value font_sxs">Anbarda kifayət qədər
-                                        var.</span></div>
+                                        var.</span></div> -->
                                 <!-- <div class="article_block" data-name="Art." data-value="ASW-H09A4">
                                     <div class="muted font_sxs">Art.: ASW-H09A4</div>
                                 </div> -->
@@ -2307,9 +2299,9 @@
                             </div>
                             <div class="sa_block" data-fields="null" data-stores="[]" data-user-fields="null"
                                 style="height: 44px;">
-                                <div class="item-stock js-show-stores js-show-info-block" data-id="5235"><span
+                                <!-- <div class="item-stock js-show-stores js-show-info-block" data-id="5235"><span
                                         class="icon stock"></span><span class="value font_sxs">Anbarda kifayət qədər
-                                        var.</span></div>
+                                        var.</span></div> -->
                                 <!-- <div class="article_block" data-name="Art." data-value="ASW-H09A4">
                                     <div class="muted font_sxs">Art.: ASW-H09A4</div>
                                 </div> -->
@@ -2437,9 +2429,9 @@
                             </div>
                             <div class="sa_block" data-fields="null" data-stores="[]" data-user-fields="null"
                                 style="height: 44px;">
-                                <div class="item-stock js-show-stores js-show-info-block" data-id="5235"><span
+                                <!-- <div class="item-stock js-show-stores js-show-info-block" data-id="5235"><span
                                         class="icon stock"></span><span class="value font_sxs">Anbarda kifayət qədər
-                                        var.</span></div>
+                                        var.</span></div> -->
                                 <!-- <div class="article_block" data-name="Art." data-value="ASW-H09A4">
                                     <div class="muted font_sxs">Art.: ASW-H09A4</div>
                                 </div> -->
@@ -2566,9 +2558,9 @@
                             </div>
                             <div class="sa_block" data-fields="null" data-stores="[]" data-user-fields="null"
                                 style="height: 44px;">
-                                <div class="item-stock js-show-stores js-show-info-block" data-id="5235"><span
+                                <!-- <div class="item-stock js-show-stores js-show-info-block" data-id="5235"><span
                                         class="icon stock"></span><span class="value font_sxs">Anbarda kifayət qədər
-                                        var.</span></div>
+                                        var.</span></div> -->
                                 <!-- <div class="article_block" data-name="Art." data-value="ASW-H09A4">
                                     <div class="muted font_sxs">Art.: ASW-H09A4</div>
                                 </div> -->
@@ -2843,7 +2835,7 @@
                                 <div class=" for-follow-email bg-white form-group d-flex">
                                     <input class="input-email" type="email" placeholder="Email daxil edin">
 
-                                    <input style="background: #5ec56f" type="submit" value="Abune ol"
+                                    <input style="background: #49bd68" type="submit" value="Abune ol"
                                         class="submit px-3 py-2 border-0 rounded text-light">
                                 </div>
                             </form>
@@ -2871,7 +2863,7 @@
                                     <div style="border-radius:5px;display:inline-block !important;font-family: MavenPro-Bold;" class="bg-white form-group d-flex">
                                         <input style="border:none;padding-left:5px;" type="email" placeholder="Email daxil edin">
             
-                                        <input style="background: #5ec56f" type="submit" value="Abune ol" class="submit px-3 py-2 border-0 rounded text-light">
+                                        <input style="background: #49bd68" type="submit" value="Abune ol" class="submit px-3 py-2 border-0 rounded text-light">
                                     </div>
                                 </form>
                         </div>

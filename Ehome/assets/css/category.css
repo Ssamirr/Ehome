@@ -95,10 +95,6 @@ margin-right: 5px;
 margin-right: 0px !important;
 }
 
-.category-header_container .header_ul li {
-display: inline-block;
-}
-
 .category-header_container .header_ul li a {
 font-family: MavenPro-Regular;
 font-size: 12px;
@@ -250,15 +246,15 @@ top: 0;
 }
 
 .category_page_wrapper .category_page_container .product_filters_wrapper_desktop .product_filters_container .filters_title_wrapper .filters_title_list li.open_filter a {
-color: #5ec56f;
+color: #49bd68;
 }
 
 .category_page_wrapper .category_page_container .product_filters_wrapper_desktop .product_filters_container .filters_title_wrapper .filters_title_list li.open_filter::after, .category_page_wrapper .category_page_container .product_filters_wrapper_desktop .product_filters_container .filters_title_wrapper .filters_title_list li.open_filter::before {
-background-color: #5ec56f;
+background-color: #49bd68;
 }
 
 .category_page_wrapper .category_page_container .product_filters_wrapper_desktop .product_filters_container .filters_title_wrapper .filters_title_list li.open_filter a {
-color: #5ec56f;
+color: #49bd68;
 }
 
 .category_page_wrapper .category_page_container .product_filters_wrapper_desktop .product_filters_container .filters_inner_wrapper {
@@ -586,7 +582,7 @@ color: black;
 }
 
 .count-item li a:hover{
-color: #5ec56f;
+color: #49bd68;
 }
 
 .dropdownn-filter, .queue-dropdown{
@@ -617,7 +613,7 @@ width: 256px !important;
 }
 
 .dropdownn-filter:hover{
-border: 2px solid #5ec56f;
+border: 2px solid #49bd68;
 }
 .dropdownn-filter:focus{
 outline: none;
@@ -670,7 +666,7 @@ opacity: 0.7;
 }
 
 .dropdownn-filter-list li:hover{
-background-color: #5ec56f;
+background-color: #49bd68;
 color: #fff;
 }
 
@@ -716,7 +712,7 @@ display: flex;
 }
 
 .pagination_wrapper .pagination_ul li.active_page {
-background-color: #5ec56f;
+background-color: #49bd68;
 }
 
 .pagination_wrapper .pagination_ul li {
@@ -747,12 +743,12 @@ width: 100%;
 }
 
 .pagination_wrapper .pagination_ul li:hover {
-border-color: #5ec56f;
+border-color: #49bd68;
 color: #fff;
 }
 
 .active-count{
-color:#5ec56f !important;
+color:#49bd68 !important;
 }
 
 .category-items{
@@ -764,7 +760,7 @@ padding: 2px 7px 2px;
 margin: 0 2px 4px;
 letter-spacing: normal;
 font-family: MavenPro-Regular;
-background-color: #5ec56f;
+background-color: #49bd68;
 width: auto;
 display: inline-block;
 color: #fff;
@@ -852,7 +848,7 @@ width: 5px;
 height: 5px;
 margin: 6px 8px 0 0;
 border-radius: 100%;
-background-color: #5ec56f;
+background-color: #49bd68;
 }
 
 .item-stock > span {
@@ -863,7 +859,7 @@ line-height: 15px;
 }
 
 .item-stock .stock + .value {
-color: #5ec56f;
+color: #49bd68;
 border-bottom: 1px dotted;
 }
 
@@ -895,7 +891,7 @@ height: 60px !important;
 }
 
 .sa_block{
-height: 100px !important;
+height: 70px !important;
 }
 
 .clearfix::after, .clearfix::before {
@@ -921,7 +917,7 @@ border-color: #ececec;
 
 .icons-basket-wrapper .btn:hover {
 background: 0 0;
-border-color: #5ec56f;
+border-color: #49bd68;
 }
 
 .btn.btn-default {
@@ -962,7 +958,7 @@ margin-left: -1px;
 }
 
 .svg.colored * {
-fill: #5ec56f;
+fill: #49bd68;
 }
 
 .icons-basket-wrapper .btn:not(:hover) i {
@@ -973,7 +969,7 @@ transition: 0.5s ease;
 }
 
 .icons-basket-wrapper .btn:hover i {
-color: #5ec56f !important;
+color: #49bd68 !important;
 }
 
 .icons-basket-wrapper i{
@@ -1022,14 +1018,14 @@ font-family:MavenPro-Regular;
 }
 
 .credit-price{
-color:#5ec56f;
+color:#49bd68;
 font-family: MavenPro-SemiBold;
 }
 
 .cash-price-percent{
 color: white;
 padding: 2px 5px;
-background: #5ec56f;
+background: #49bd68;
 border-radius: 5px;
 }
 
@@ -1050,7 +1046,7 @@ margin-top: 5px;
 
 
 .active-view{
-color: #5ec56f !important;
+color: #49bd68 !important;
 }
 
 .items-svg{
@@ -1058,7 +1054,7 @@ top:0;
 right: -33px;
 -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.15);
         box-shadow: 0 2px 5px 0 rgba(0,0,0,.15);
-background: #5ec56f;
+background: #49bd68;
 border-radius: 5px;
 visibility: hidden;
 opacity: 0;
@@ -1080,7 +1076,7 @@ padding: 6px;
 background: white;
 }
 .svg-filess:hover .clsw-1{
-fill: #5ec56f
+fill: #49bd68
 }
 
 .each-items:hover{
@@ -1145,7 +1141,7 @@ text-decoration: none;
 }
 
 .block-item__title a:hover{
-color: #5ec56f;
+color: #49bd68;
 }
 
 .block-item__price{
@@ -1211,7 +1207,7 @@ line-height: 30px !important;
 
 .filter-panel-opener a{
 text-decoration: none;
-color: #504b4b;
+color: #333;
 font-family: MavenPro-Semibold;
 display: -webkit-box;
 display: -ms-flexbox;

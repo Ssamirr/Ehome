@@ -171,26 +171,12 @@ document.querySelectorAll('.queue-type-list-mobile').forEach(function(element){
         })
     })
 
-    $("#slider-range").slider({
-        range: true,
-        orientation: "horizontal",
-        min: 0,
-        max: 10000,
-        values: [0, 10000],
-        step: 100,
-      
-        slide: function (event, ui) {
-          if (ui.values[0] == ui.values[1]) {
-            return false;
-          }
-        let e = this.closest('.filterr-range-container')
-        console.log(e)
-          $("#min_filterr").val(ui.values[0]);
-          $("#max_filterr").val(ui.values[1]);
-        }
-      });
 
-      $("#slider-range2").slider({
+    let all_slider_range = document.querySelectorAll('.slider-rangee')
+    all_slider_range.forEach(function(elem){
+      let id_slider_range  = elem.getAttribute('id')
+      console.log(id_slider_range)
+      $("#"+id_slider_range).slider({
         range: true,
         orientation: "horizontal",
         min: 0,
@@ -202,83 +188,14 @@ document.querySelectorAll('.queue-type-list-mobile').forEach(function(element){
           if (ui.values[0] == ui.values[1]) {
             return false;
           }
-          
-          $("#min_filterr2").val(ui.values[0]);
-          $("#max_filterr2").val(ui.values[1]);
+        let filterr_range_container = elem.closest('.for-js-range')
+        let min_filter = filterr_range_container.querySelector('.min_filterr')
+        let max_filter = filterr_range_container.querySelector('.max_filterr')
+          $(min_filter).val(ui.values[0]);
+          $(max_filter).val(ui.values[1]);
         }
       });
-
-      $("#slider-range3").slider({
-        range: true,
-        orientation: "horizontal",
-        min: 0,
-        max: 10000,
-        values: [0, 10000],
-        step: 100,
-      
-        slide: function (event, ui) {
-          if (ui.values[0] == ui.values[1]) {
-            return false;
-          }
-          
-          $("#min_filterr3").val(ui.values[0]);
-          $("#max_filterr3").val(ui.values[1]);
-        }
-      });
-
-      $("#slider-range4").slider({
-        range: true,
-        orientation: "horizontal",
-        min: 0,
-        max: 10000,
-        values: [0, 10000],
-        step: 100,
-      
-        slide: function (event, ui) {
-          if (ui.values[0] == ui.values[1]) {
-            return false;
-          }
-          
-          $("#min_filterr4").val(ui.values[0]);
-          $("#max_filterr4").val(ui.values[1]);
-        }
-      });
-
-      $("#slider-range5").slider({
-        range: true,
-        orientation: "horizontal",
-        min: 0,
-        max: 10000,
-        values: [0, 10000],
-        step: 100,
-      
-        slide: function (event, ui) {
-          if (ui.values[0] == ui.values[1]) {
-            return false;
-          }
-          
-          $("#min_filterr5").val(ui.values[0]);
-          $("#max_filterr5").val(ui.values[1]);
-        }
-      });
-
-      $("#slider-range6").slider({
-        range: true,
-        orientation: "horizontal",
-        min: 0,
-        max: 10000,
-        values: [0, 10000],
-        step: 100,
-      
-        slide: function (event, ui) {
-          if (ui.values[0] == ui.values[1]) {
-            return false;
-          }
-          
-          $("#min_filterr6").val(ui.values[0]);
-          $("#max_filterr6").val(ui.values[1]);
-        }
-      });
+    })
 
       $('#owl-carousel-last-viewed-item').owlCarousel({
         loop:false,

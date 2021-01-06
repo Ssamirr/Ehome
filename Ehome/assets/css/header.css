@@ -603,12 +603,12 @@ ul{
 }
 
 .signup2 {
-    color: #5ec56f;
+    color: #49bd68;
     font-family: MavenPro-Bold;
 }
 
 .welcome{
-    color: #5ec56f;
+    color: #49bd68;
     font-family: MavenPro-Bold;
 }
 
@@ -626,7 +626,7 @@ ul{
     height: 50px;
     font-family: MavenPro-SemiBold;
     border-radius: 6px;
-    background-color: #5ec56f;
+    background-color: #49bd68;
     color: white;
     margin-bottom: 8px;
     margin-top: 8px;
@@ -638,7 +638,7 @@ ul{
 }
 
 .linkjoin, .joinfooter{
-    color: #5ec56f;
+    color: #49bd68;
 }
 
 .mobile_layout_wrapper .top_header_wrapper {
