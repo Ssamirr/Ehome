@@ -184,3 +184,9 @@ margin: 0;
 
     }    
 }
+
+@media screen and (max-width: 1079px) {
+    .campaign-name h1{
+        font-size: 22px;
+    }
+}

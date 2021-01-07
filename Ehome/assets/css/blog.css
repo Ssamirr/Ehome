@@ -133,3 +133,9 @@
 
     }    
 }
+
+@media screen and (max-width: 1079px) {
+    .blog-name h1{
+        font-size: 22px;
+    }
+}
