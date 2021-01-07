@@ -92,3 +92,9 @@
       margin-right: 15px;
     }    
 }
+
+@media screen and (max-width: 720px) {
+    .credit-container .header_ul li a{
+        font-size: 11px;
+    }
+}

@@ -1682,9 +1682,9 @@ height: 468px !important;
 .dropdownn-filter-list li a{
   font-size: 13px;
 }
-/* .items-height{
-  height: 490px !important;
-} */
+  .category-header_container .header_ul li a{
+      font-size: 11px;
+}
 }
 
 @media screen and (max-width: 650px) {
@@ -1744,13 +1744,6 @@ height: 468px !important;
 .dropdownn-filter-list li a{
   font-size: 12px;
 }
-}
-
-@media screen and (max-width: 376px) {
-  /* .items-height{
-    height: 460px !important;
-  } */
-
 }
 
 
