@@ -81,10 +81,10 @@
 }
 
 .project-footer{
-    margin-top: 30px;
+    margin-top: 10px;
     align-items: center;
     padding: 0px 15px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .project-detailly a{
@@ -93,6 +93,11 @@
     color: #333 !important;
     text-decoration: none;
     font-size: 15px;
+}
+
+.project-detailly{
+    display: flex;
+    justify-content: end;
 }
 
 .for-shadow-project{

@@ -103,6 +103,11 @@
     font-size: 15px;
 }
 
+.blog-detailly{
+    display: flex;
+    justify-content: end;
+}
+
 .for-shadow-blog{
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.176);
     border-radius: 20px;
