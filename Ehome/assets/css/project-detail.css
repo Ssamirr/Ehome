@@ -164,5 +164,6 @@
     }
     .project-detail-container .header_ul li a{
         font-size: 11px;
+        white-space: nowrap;
     }
 }

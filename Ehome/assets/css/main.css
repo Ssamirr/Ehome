@@ -1166,23 +1166,6 @@ body .overlay_site .element .anime {
 }
 
 @media screen and (max-width: 460px){
-    /* body{
-        overflow-x: hidden;
-    }
-    .company-services{
-        margin: auto;
-        min-width: 200px;
-        max-width: 212px;
-    } */
-    /* .company-services .col-3{
-        -webkit-box-flex: 100%;
-            -ms-flex: 100%;
-                flex: 100%;
-        max-width: 100%;
-        -webkit-box-pack: start;
-            -ms-flex-pack: start;
-                justify-content: start;
-    } */
     .company-services .service-for-company{
         border: none;
         padding: 5px 0px;

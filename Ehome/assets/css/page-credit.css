@@ -96,5 +96,6 @@
 @media screen and (max-width: 720px) {
     .credit-container .header_ul li a{
         font-size: 11px;
+        white-space: nowrap;
     }
 }

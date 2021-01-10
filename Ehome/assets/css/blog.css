@@ -162,5 +162,6 @@
 @media screen and (max-width: 720px) {
     .blog-container .header_ul li a{
         font-size: 11px;
+        white-space: nowrap;
     }
 }
