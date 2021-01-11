@@ -483,7 +483,7 @@ body{
 
 .main_product_output ul li a .price_badge {
     position: absolute;
-    z-index: 99;
+    z-index: 97;
     width: 82px;
     height: 48px;
     border-bottom-right-radius: 10px;
