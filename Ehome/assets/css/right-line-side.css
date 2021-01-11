@@ -296,12 +296,12 @@
         right: 45px !important;
     }
     .line-side-closee{
-        width: 360px;
-        right: -360px;
+        width: 100%;
+        right: -100%;
     }
     .line-side-openn{
-        right: 0px;
-        width: 360px;
+        right: 0%;
+        width: 100%;
     }
 }
 
