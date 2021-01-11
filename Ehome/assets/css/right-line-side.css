@@ -303,6 +303,10 @@
         right: 0%;
         width: 100%;
     }
+    .bottom-right-side-item{
+        position: relative;
+        bottom: 30px;
+    }
 }
 
 @media screen and (max-width: 500px) {
