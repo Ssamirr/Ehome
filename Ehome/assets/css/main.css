@@ -1181,4 +1181,11 @@ body .overlay_site .element .anime {
     }
 }
 
+@media screen and (max-width: 555px){
+    body #scroll_top {
+        bottom: 50px;
+    }
+}
+
+
 

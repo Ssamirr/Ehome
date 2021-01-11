@@ -167,5 +167,17 @@ $(document).ready(function () {
         })
     }
 
+    document.querySelector('.favorite-icon-header').addEventListener('click',function(){
+        console.log('aa')
+        document.querySelector('.line-side').classList.add('line-side-openn')
+        document.querySelector('.line-side').classList.remove('line-side-closee');
+        document.querySelector('#v-pills-favorite-tab').click();
+    })
+    document.querySelector('.shopping-icon-header').addEventListener('click',function(){
+        document.querySelector('.line-side').classList.add('line-side-openn')
+        document.querySelector('.line-side').classList.remove('line-side-closee');
+        document.querySelector('#v-pills-heart-tab').click();
+    })
+
 
 });

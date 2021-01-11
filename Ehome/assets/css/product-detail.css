@@ -453,6 +453,7 @@
 }
 
 .panel-body {
+	box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.176);
     padding: 15px;
 }
 

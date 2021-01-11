@@ -278,5 +278,10 @@ body .overlay_site .element .anime {
 .info-detail{
   width: 90%;
 }
+}
 
+@media screen and (max-width: 555px) {
+  .footer-section{
+    margin-bottom: 30px;
+  }
 }
