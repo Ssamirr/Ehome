@@ -985,20 +985,25 @@ opacity: 0;
 transition: 0.5s all ease;
 }
 
-.clsw-1{
-fill: white;
-}
+
 
 .svg-filess{
 cursor: pointer;
+display: flex;
+justify-content: center;
+align-items: center;
 padding: 6px;
 }
 
 .svg-filess:hover{
 background: white;
 }
-.svg-filess:hover .clsw-1{
-fill: #49bd68
+
+.svg-filess i{
+  font-size: 16px !important;
+}
+.svg-filess:hover i{
+color: #49bd68 !important; 
 }
 
 .each-items:hover{

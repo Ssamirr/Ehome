@@ -99,11 +99,11 @@ $(document).ready(function () {
         $('#form-join2,#form-join').toggle();
         $('.input-signup,.signup2,.welcome,.text-secondary,.text-secondary2,.q1-modal,.q2-modal,.reset-modal').toggle();
 
-        if ($('.linkjoin').text() == 'Login') {
-            $('.linkjoin').text('Sign Up');
+        if ($('.linkjoin').text() == 'Daxil ol') {
+            $('.linkjoin').text('Qeydiyyat');
         }
         else {
-            $('.linkjoin').text('Login');
+            $('.linkjoin').text('Daxil ol');
         }
 
     })
