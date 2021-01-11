@@ -1239,7 +1239,7 @@ body.overflow_hidden {
     .mobile_layout_wrapper {
         display: flow-root;
         position: relative;
-        z-index: 999;
+        z-index: 98;
     }
   }
 
