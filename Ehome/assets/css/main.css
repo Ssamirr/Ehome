@@ -82,9 +82,9 @@ body{
     overflow-x: hidden;
 }
 
-#owl-carousel-first img{
+/* #owl-carousel-first img{
     height: 430px;
-}
+} */
 
 .owl-carousel-all .owl-nav .owl-prev{
     left: 10px;
@@ -1018,9 +1018,9 @@ body .overlay_site .element .anime {
     .service-for-company i{
         font-size: 20px !important;
     }
-    #owl-carousel-first img{
+    /* #owl-carousel-first img{
         height: 350px;
-    }
+    } */
     
     .company-services{
         padding: 0px 15px;

@@ -110,8 +110,8 @@ width:65%
 }
 
 .bank-cards img{
-width: 60px;
-height: 60px;
+max-width: 64px;
+
 }
 
 .social-sites img{

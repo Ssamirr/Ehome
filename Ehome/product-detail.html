@@ -1555,8 +1555,8 @@
                         <img src="assets/images/bir.png" alt="">
                         <div class="pay-with-card">18 ay 70 ₼-dan</div>
                     </div>
-                    <div class="buy-one-click">
-                        <a href="">1 kliklə al</a>
+                    <div data-toggle="modal" data-target="#oneClickModal" class="buy-one-click">
+                        <a href="javascript:void(0)">1 kliklə al</a>
                     </div>
                     <div class="add-basket-product-detail">
                         <span href="">Səbətə at</span>
@@ -1701,6 +1701,41 @@
             </div>
 
         </div>
+
+            <!-- .................................modal one click buy........................................... -->
+    <div class=" modal fade" id="oneClickModal" tabindex="-1" role="dialog" aria-labelledby="oneClickLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-view" role="document">
+        <div class="modal-content">
+            <div class="row align-items-center text-center flex-column">
+
+                <div class="modal-body">
+                    <h3 class="one-click-header  text-center SignInOutFormstyle__Heading-w9z0ip-4 dUkJlM">
+                        1 kliklə al
+                    </h3>
+                </div>
+                <form id="form-join">
+                    <div class="form-data"
+                        style="display: flex;flex-direction: column;justify-content: center;text-align: left;">
+                        <input class="mb-2 joinj form-control" name="username" type="text" placeholder="Ad">
+                    </div>
+
+                    <div class="form-data"
+                        style="display: flex;flex-direction: column;justify-content: center;text-align: left;">
+                        <input class="mb-2 joinj form-control" name="nömrə" type="Tel" id=""
+                            placeholder="Nömrə">
+                    </div>
+
+
+
+                    <input type="submit" class="jbutton" value="Göndər">
+                </form>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
 
 
     </section>
