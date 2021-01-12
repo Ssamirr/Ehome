@@ -895,9 +895,15 @@ transition: 0.5s all ease;
 
 .svg-filess{
 cursor: pointer;
+display: -webkit-box;
+display: -ms-flexbox;
 display: flex;
-justify-content: center;
-align-items: center;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
 padding: 6px;
 }
 
@@ -1402,15 +1408,23 @@ color: #40484e !important;
   max-height: 0;
   opacity: 0;
   overflow: hidden;
+  -webkit-transition: opacity 0.5s;
+  -o-transition: opacity 0.5s;
   transition: opacity 0.5s;
 }
 
 .listt-view{
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding: 10px;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   border-bottom: 1px solid #ececec;
 }
 
@@ -1421,15 +1435,23 @@ color: #40484e !important;
 }
 
 .list-view-item-img .credit-duration{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
 .list-view-item-left{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .listt-view .inner_rating{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -1444,6 +1466,8 @@ color: #40484e !important;
 }
 
 .list-view-item-selector{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -1453,6 +1477,8 @@ color: #40484e !important;
   cursor: pointer;
   border: 1px solid #ececec;
   border-radius: 5px;
+  -webkit-transition: 0.5s all;
+  -o-transition: 0.5s all;
   transition: 0.5s all;
 }
 
@@ -1469,11 +1495,15 @@ color: #40484e !important;
 }
 
 .list-view-item-selector span i{
+  -webkit-transition: 0.5s all;
+  -o-transition: 0.5s all;
   transition: 0.5s all;
 }
 
 .all-items-view-table{
   overflow: hidden;
+  -webkit-transition: max-height 0.5s;
+  -o-transition: max-height 0.5s;
   transition: max-height 0.5s;
 }
 
