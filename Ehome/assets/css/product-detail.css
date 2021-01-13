@@ -764,6 +764,19 @@
 	align-items: center;
 }
 
+.item-stock .value{
+	font-size:12px;
+	font-family:MavenPro-Regular;
+	border-bottom: 1px dotted;
+	color: #49bd68;
+}
+
+
+.article_block .muted{
+	color: #999;
+	font-size:12px;
+	font-family:MavenPro-Regular;
+}
 
 @media all and (max-width:760px) {
 	#wowslider-container1 .ws_fullscreen {

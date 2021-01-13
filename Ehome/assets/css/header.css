@@ -170,6 +170,22 @@ ul{
 .desktop_layout_wrapper .middle_header_wrapper {
     width: 100%;
     background-color: #fff;
+    transition: 0.5s all;
+    opacity: 1;
+    max-height: 10000px;
+    overflow: hidden;
+}
+
+.scroll-fixed{
+    position: fixed !important;
+    top: 0 !important;
+    z-index: 98 !important;
+    transition: 0.5s all;
+    overflow: hidden !important;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.176);
+}
+.scroll-fixed .middle_header_inner{
+    padding: 20px 0px  !important;
 }
 
 .desktop_layout_wrapper .middle_header_wrapper .middle_header_inner {
@@ -704,6 +720,10 @@ ul{
     background-color: #fff;
     position: relative;
     z-index: 1000;
+    transition: 0.5s all;
+    opacity: 1;
+    max-height: 10000px;
+    overflow: hidden;
 }
 
 .mobile_layout_wrapper .main_header_wrapper .main_header_inner {
