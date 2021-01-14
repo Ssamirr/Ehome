@@ -1516,7 +1516,163 @@ color: #40484e !important;
   font-family: MavenPro-Bold;
 }
 
+.modal-item-icon{
+  padding: 3px 5px;
+  border: 1px solid #7777772e;
+  border-radius: 5px;
+  transition: 0.3s all;
+  cursor: pointer;
+}
 
+.modal-item-icon:hover{
+  background: #49bd68;
+}
+
+.modal-item-icon i{
+  transition: 0.3s all;
+}
+
+.modal-item-icon span{
+  font-family: MavenPro-Regular;
+  font-size: 14px;
+  transition: 0.3s all;
+}
+
+.modal-item-icon:hover i, .modal-item-icon:hover span {
+  color: white !important;
+}
+
+.modal-inner-rating{
+  display: flex;
+  margin-left: 10px;
+  margin-top: 0px !important;
+  align-items: center;
+}
+
+.quick-view-modal-dialog{
+  max-width: 960px !important;
+}
+
+/* .modal-item-img{
+  padding: 50px;
+} */
+
+.modal-quick-view-price{
+  display: flex;
+}
+
+.modal-quick-view-price {
+  margin-bottom: 20px;
+}
+
+.modal-quick-view-item-stock .value-quick-view{
+  font-size: 12px;
+  font-family: MavenPro-Regular;
+  border-bottom: 1px dotted;
+  color: #49bd68;
+}
+
+.modal-quick-view-item-stock{
+  display: flex;
+}
+
+.modal-quick-view-article_block{
+  margin-left: 20px;
+}
+
+.modal-quick-view-article_block .muted-quick-view{
+  color: #999;
+  font-size: 12px;
+  font-family: MavenPro-Regular;
+}
+
+.buy-one-click-quick-view{
+  width: 100%;
+  height: 45px;
+  border-radius: 5px;
+  border: 1px solid #40484e;
+  display: inline-block;
+  font-family: MavenPro-SemiBold;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1.28px;
+  text-align: center;
+  color: #40484e;
+  line-height: 45px;
+  text-decoration: none;
+  background: white;
+  margin-top: 5px;
+}
+
+.buy-one-click-quick-view a{
+  color: #40484e;
+}
+
+.add-basket-product-quick-view{
+  cursor: pointer;
+  margin-top: 5px;
+  width: 100%;
+  height: 45px;
+  border-radius: 5px;
+  border: 1px solid #40484e;
+  display: inline-block;
+  font-family: MavenPro-SemiBold;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1.28px;
+  text-align: center;
+  color: #49bd68;
+  line-height: 45px;
+  text-decoration: none;
+  background: white;
+}
+
+.product-features-quick-view .ul-product-features-quick-view .product-features-question-answer-quick-view {
+  list-style: none;
+}
+
+.product-features-questions-quick-view {
+  font-size: 14px;
+  color: #333;
+  font-family: MavenPro-SemiBold;
+  border-bottom: 1px solid #7777772e;
+  padding: 5px 0px;
+      padding-left: 0px;
+  margin-bottom: 0px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding-left: 3px !important;
+}
+
+.product-features-answers-quick-view {
+  font-size: 12px;
+  color: #333;
+  font-family: MavenPro-Regular;
+  padding: 0px 20px;
+  margin: 0;
+  overflow: hidden;
+  max-height: 0px;
+  transition: max-height 0.5s ease-in-out;
+}
+
+.product-features-questions-quick-view i {
+  transform: rotate(90deg);
+}
+
+.product-features-answers-quick-view{
+  text-align: left;
+}
+
+.owl-quick-view .owl-nav .owl-prev{
+  opacity: 1 !important;
+  left: -1px !important;
+}
+
+.owl-quick-view .owl-nav .owl-next{
+  opacity: 1 !important;
+  right: -1px !important;
+}
 
 
 

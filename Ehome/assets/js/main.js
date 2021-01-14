@@ -136,6 +136,15 @@ $(document).ready(function () {
         }
     });
 
+    $('#owl-carousel-quick-view').owlCarousel({
+        loop: false,
+        margin: 10,
+        nav: true,
+        items: 1,
+        autoplay: false,
+        dots: false,
+    });
+
     $(window).scroll(function () {
         if ($(this).scrollTop() >= 400) {
             $('#scroll_top').fadeIn("fast");
@@ -566,6 +575,21 @@ $(document).ready(function () {
         }
         prevScrollpos = currentScrollPos;
     }
+
+    document.querySelectorAll('.product-features-questions-quick-view').forEach(function (element) {
+        element.addEventListener('click', function () {
+            let product_features_question_answer = element.closest('.product-features-question-answer-quick-view')
+            let product_features_answer = product_features_question_answer.querySelector('.product-features-answers-quick-view')
+            if (product_features_answer.style.maxHeight) {
+                product_features_answer.style.maxHeight = null;
+                product_features_question_answer.querySelector('i').style.transform = "rotate(90deg)"
+            } else {
+                product_features_answer.style.maxHeight = product_features_answer.scrollHeight + "px";
+                product_features_question_answer.querySelector('i').style.transform = "rotate(-90deg)"
+                product_features_question_answer.querySelector('i').style.transition = "transform 0.5s"
+            }
+        })
+    })
 
 
 

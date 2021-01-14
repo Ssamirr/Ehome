@@ -116,7 +116,6 @@ max-width: 64px;
 
 .social-sites img{
 width: 30px;
-height: 30px;
 }
 
 body #scroll_top {
@@ -200,78 +199,83 @@ body .overlay_site .element .anime {
 }
 
 @media screen and (max-width: 1079px){
-.social-card{
-  display: block !important;
-}
-.social-sites{
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-.bank-cards{
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-.footer-site{
-    margin-right: 0.5rem;
-    margin-left: 0.5rem;
-}
-  .footer-site .col-3{
-  -webkit-box-flex: 50%;
-      -ms-flex: 50%;
-          flex: 50%;
-  max-width: 50%;
-  padding: 0 !important;
-}
-.subscribe-form .form-group{
-  display: inline-block !important;
-}
-.input-email{
-  width: auto;
-}
-.info-detail{
-  margin: 0px 50px;
-}
+  .bank-cards{
+    margin-top: 20px;
+  }
+  .social-card{
+    display: block !important;
+  }
+  .social-sites{
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .bank-cards{
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer-site{
+      margin-right: 0.5rem;
+      margin-left: 0.5rem;
+  }
+    .footer-site .col-3{
+    -webkit-box-flex: 50%;
+        -ms-flex: 50%;
+            flex: 50%;
+    max-width: 50%;
+    padding: 0 !important;
+  }
+  .subscribe-form .form-group{
+    display: inline-block !important;
+  }
+  .input-email{
+    width: auto;
+  }
+  .info-detail{
+    margin: 0px 50px;
+  }
 }
 
 @media screen and (max-width: 720px){
-.subscribe-form .form-group{
-  display: -webkit-box !important;
-  display: -ms-flexbox !important;
-  display: flex !important;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-.info-detail{
-  margin: 0px 10px;
-}
-.footer-site .col-3{
-  -webkit-box-flex: 100%;
-      -ms-flex: 100%;
-          flex: 100%;
-  max-width: 100%;
-  padding: 0 !important;
-}
-.info-detail{
-  width: 60%;
-  margin: auto;
-}
-.info-detail h5{
-  text-align: center;
-}
-.bank-cards img{
-  width: 40px;
-  height: 40px;
-}
-.social-sites h5{
-  font-size: 16px !important;
-}
-.social-sites img{
-  width: 28px;
-  height: 28px;
-}
+  .subscribe-form .form-group{
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .info-detail{
+    margin: 0px 10px;
+  }
+  .footer-site .col-3{
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+    max-width: 100%;
+    padding: 0 !important;
+  }
+  .info-detail{
+    width: 60%;
+    margin: auto;
+  }
+  .info-detail h5{
+    text-align: center;
+  }
+  .bank-cards img{
+    max-width: 53px !important;
+    margin-bottom: 10px;
+  }
+  .social-sites h5{
+    font-size: 13px !important;
+  }
+  .social-sites img{
+    max-width: 25px !important;
+  }
+  .bank-cards{
+    flex-wrap: wrap;
+  }
 }
 
 @media screen and (max-width: 600px){
