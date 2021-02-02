@@ -1,10 +1,10 @@
 jQuery("#wowslider-container1").wowSlider({ 
     effect: "basic", 
-    duration: 3000, 
+    duration: 1000, 
     delay: 0, 
     // width: 800, 
     // height: 600, 
-    autoPlay: true, 
+    autoPlay: false, 
     stopOnHover: true, 
     loop: false, 
     bullets: 0, 
