@@ -47,17 +47,18 @@
 .parent-count-item{
     position: absolute;
     background: white;
-    width: 18px;
-    height: 17px;
+    width: 15px;
+    height: 15px;
     border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 5px;
-    right: 5px;
+    top: 2px;
+    right: 2px;
 }
 
 .count-itemm{
+    font-size:12px;
     color: black;
 }
 

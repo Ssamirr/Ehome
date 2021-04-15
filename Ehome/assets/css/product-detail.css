@@ -790,6 +790,11 @@
 	transition: 0.5s all ease;
 	}
 
+.social-sites-button{
+	background: none;
+	border: none;
+}
+
 @media all and (max-width:760px) {
 	#wowslider-container1 .ws_fullscreen {
 		display: block;
@@ -871,5 +876,11 @@
 	}
 	.featured-properteis li{
 		width: calc(100% / 3);
+	}
+	.form-input-submit{
+		flex-direction: column;
+	}
+	.like-tweet-share-buttons{
+		margin-bottom: 10px;
 	}
 }
