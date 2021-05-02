@@ -241,53 +241,53 @@ $(document).ready(function () {
     var queue_dropdown_mobile = document.querySelector('.queue-dropdown-mobile')
 
     document.onclick = function (e) {
-        if (alphabet_dropdown) {
-            if (!e.target.closest('.alphabet-dropdown')) {
-                document.querySelector('.alphabet-dropdown-list').classList.remove('d-block')
-                document.querySelector('.alphabet-dropdown-list').classList.add('d-none')
-                document.querySelector('.alphabet-dropdown-list').closest('.header-tag-filter').querySelector('i').classList.add('fa-caret-down')
-                document.querySelector('.alphabet-dropdown-list').closest('.header-tag-filter').querySelector('i').classList.remove('fa-caret-up')
-            }
-        }
+        // if (alphabet_dropdown) {
+        //     if (!e.target.closest('.alphabet-dropdown')) {
+        //         document.querySelector('.alphabet-dropdown-list').classList.remove('d-block')
+        //         document.querySelector('.alphabet-dropdown-list').classList.add('d-none')
+        //         document.querySelector('.alphabet-dropdown-list').closest('.header-tag-filter').querySelector('i').classList.add('fa-caret-down')
+        //         document.querySelector('.alphabet-dropdown-list').closest('.header-tag-filter').querySelector('i').classList.remove('fa-caret-up')
+        //     }
+        // }
 
-        if (price_dropdown) {
-            if (!e.target.closest('.price-dropdown')) {
-                document.querySelector('.price-dropdown-list').classList.remove('d-block')
-                document.querySelector('.price-dropdown-list').classList.add('d-none')
-                document.querySelector('.price-dropdown-list').closest('.header-tag-filter').querySelector('i').classList.add('fa-caret-down')
-                document.querySelector('.price-dropdown-list').closest('.header-tag-filter').querySelector('i').classList.remove('fa-caret-up')
-            }
-        }
+        // if (price_dropdown) {
+        //     if (!e.target.closest('.price-dropdown')) {
+        //         document.querySelector('.price-dropdown-list').classList.remove('d-block')
+        //         document.querySelector('.price-dropdown-list').classList.add('d-none')
+        //         document.querySelector('.price-dropdown-list').closest('.header-tag-filter').querySelector('i').classList.add('fa-caret-down')
+        //         document.querySelector('.price-dropdown-list').closest('.header-tag-filter').querySelector('i').classList.remove('fa-caret-up')
+        //     }
+        // }
 
-        if (new_or_old_dropdown) {
-            if (!e.target.closest('.new-or-old-dropdown')) {
-                document.querySelector('.new-or-old-dropdown-list').classList.remove('d-block')
-                document.querySelector('.new-or-old-dropdown-list').classList.add('d-none')
-                document.querySelector('.new-or-old-dropdown-list').closest('.header-tag-filter').querySelector('i').classList.add('fa-caret-down')
-                document.querySelector('.new-or-old-dropdown-list').closest('.header-tag-filter').querySelector('i').classList.remove('fa-caret-up')
-            }
-        }
+        // if (new_or_old_dropdown) {
+        //     if (!e.target.closest('.new-or-old-dropdown')) {
+        //         document.querySelector('.new-or-old-dropdown-list').classList.remove('d-block')
+        //         document.querySelector('.new-or-old-dropdown-list').classList.add('d-none')
+        //         document.querySelector('.new-or-old-dropdown-list').closest('.header-tag-filter').querySelector('i').classList.add('fa-caret-down')
+        //         document.querySelector('.new-or-old-dropdown-list').closest('.header-tag-filter').querySelector('i').classList.remove('fa-caret-up')
+        //     }
+        // }
 
-        if (queue_dropdown) {
-            if (!e.target.closest('.queue-dropdown')) {
-                document.querySelector('.queue-dropdown-list').classList.remove('d-block')
-                document.querySelector('.queue-dropdown-list').classList.add('d-none')
-            }
-        }
+        // if (queue_dropdown) {
+        //     if (!e.target.closest('.queue-dropdown')) {
+        //         document.querySelector('.queue-dropdown-list').classList.remove('d-block')
+        //         document.querySelector('.queue-dropdown-list').classList.add('d-none')
+        //     }
+        // }
 
-        if (queue_dropdown_mobile) {
-            if (!e.target.closest('.queue-dropdown-mobile')) {
-                document.querySelector('.queue-dropdown-list-mobile').classList.remove('d-block')
-                document.querySelector('.queue-dropdown-list-mobile').classList.add('d-none')
-            }
-        }
+        // if (queue_dropdown_mobile) {
+        //     if (!e.target.closest('.queue-dropdown-mobile')) {
+        //         document.querySelector('.queue-dropdown-list-mobile').classList.remove('d-block')
+        //         document.querySelector('.queue-dropdown-list-mobile').classList.add('d-none')
+        //     }
+        // }
 
-        if (!e.target.closest('.favorite-icon-header') && !e.target.closest('.shopping-icon-header')) {
-            if (!e.target.closest('.right-side-line')) {
-                document.querySelector('.line-side').classList.remove('line-side-openn')
-                document.querySelector('.line-side').classList.add('line-side-closee');
-            }
-        }
+        // if (!e.target.closest('.favorite-icon-header') && !e.target.closest('.shopping-icon-header')) {
+        //     if (!e.target.closest('.right-side-line')) {
+        //         document.querySelector('.line-side').classList.remove('line-side-openn')
+        //         document.querySelector('.line-side').classList.add('line-side-closee');
+        //     }
+        // }
 
     }
 
@@ -303,63 +303,63 @@ $(document).ready(function () {
         document.querySelector('#v-pills-heart-tab').click();
     })
 
-    document.querySelectorAll('.dropdownn-filter').forEach(function (e) {
-        e.addEventListener('click', function () {
-            if (e.closest('.header-tag-filter').querySelector('.dropdownn-filter-list').classList.contains('d-none')) {
-                e.closest('.header-tag-filter').querySelector('.dropdownn-filter-list').classList.remove('d-none')
-                e.closest('.header-tag-filter').querySelector('.dropdownn-filter-list').classList.add('d-block')
-                if (e.closest('.header-tag-filter').querySelector('i').classList.contains('fa')) {
-                    e.closest('.header-tag-filter').querySelector('i').classList.remove('fa-caret-down')
-                    e.closest('.header-tag-filter').querySelector('i').classList.add('fa-caret-up')
-                }
+    // document.querySelectorAll('.dropdownn-filter').forEach(function (e) {
+    //     e.addEventListener('click', function () {
+    //         if (e.closest('.header-tag-filter').querySelector('.dropdownn-filter-list').classList.contains('d-none')) {
+    //             e.closest('.header-tag-filter').querySelector('.dropdownn-filter-list').classList.remove('d-none')
+    //             e.closest('.header-tag-filter').querySelector('.dropdownn-filter-list').classList.add('d-block')
+    //             if (e.closest('.header-tag-filter').querySelector('i').classList.contains('fa')) {
+    //                 e.closest('.header-tag-filter').querySelector('i').classList.remove('fa-caret-down')
+    //                 e.closest('.header-tag-filter').querySelector('i').classList.add('fa-caret-up')
+    //             }
 
-            }
-            else {
-                e.closest('.header-tag-filter').querySelector('.dropdownn-filter-list').classList.remove('d-block')
-                e.closest('.header-tag-filter').querySelector('.dropdownn-filter-list').classList.add('d-none')
-                if (e.closest('.header-tag-filter').querySelector('i').classList.contains('fa')) {
-                    e.closest('.header-tag-filter').querySelector('i').classList.add('fa-caret-down')
-                    e.closest('.header-tag-filter').querySelector('i').classList.remove('fa-caret-up')
-                }
-            }
-        })
-    })
+    //         }
+    //         else {
+    //             e.closest('.header-tag-filter').querySelector('.dropdownn-filter-list').classList.remove('d-block')
+    //             e.closest('.header-tag-filter').querySelector('.dropdownn-filter-list').classList.add('d-none')
+    //             if (e.closest('.header-tag-filter').querySelector('i').classList.contains('fa')) {
+    //                 e.closest('.header-tag-filter').querySelector('i').classList.add('fa-caret-down')
+    //                 e.closest('.header-tag-filter').querySelector('i').classList.remove('fa-caret-up')
+    //             }
+    //         }
+    //     })
+    // })
 
-    document.querySelectorAll('.alphabet-type-list').forEach(function (element) {
-        element.addEventListener('click', function () {
-            let list_option = element.innerText
-            document.querySelector('.alphabet-dropdown-featured').innerText = list_option
-        })
-    })
+    // document.querySelectorAll('.alphabet-type-list').forEach(function (element) {
+    //     element.addEventListener('click', function () {
+    //         let list_option = element.innerText
+    //         document.querySelector('.alphabet-dropdown-featured').innerText = list_option
+    //     })
+    // })
 
-    document.querySelectorAll('.price-type-list').forEach(function (element) {
-        element.addEventListener('click', function () {
-            let list_option = element.innerText
-            document.querySelector('.price-dropdown-featured').innerText = list_option
-        })
-    })
+    // document.querySelectorAll('.price-type-list').forEach(function (element) {
+    //     element.addEventListener('click', function () {
+    //         let list_option = element.innerText
+    //         document.querySelector('.price-dropdown-featured').innerText = list_option
+    //     })
+    // })
 
-    document.querySelectorAll('.new-or-old-type-list').forEach(function (element) {
-        element.addEventListener('click', function () {
-            let list_option = element.innerText
-            document.querySelector('.new-or-old-dropdown-featured').innerText = list_option
-        })
-    })
+    // document.querySelectorAll('.new-or-old-type-list').forEach(function (element) {
+    //     element.addEventListener('click', function () {
+    //         let list_option = element.innerText
+    //         document.querySelector('.new-or-old-dropdown-featured').innerText = list_option
+    //     })
+    // })
 
-    document.querySelectorAll('.queue-type-list').forEach(function (element) {
-        element.addEventListener('click', function () {
-            let list_option = element.innerText
-            document.querySelector('.queue-dropdown-featured').innerText = list_option
-        })
-    })
+    // document.querySelectorAll('.queue-type-list').forEach(function (element) {
+    //     element.addEventListener('click', function () {
+    //         let list_option = element.innerText
+    //         document.querySelector('.queue-dropdown-featured').innerText = list_option
+    //     })
+    // })
 
-    document.querySelectorAll('.queue-type-list-mobile').forEach(function (element) {
-        element.addEventListener('click', function () {
-            let list_option = element.innerText
-            document.querySelector('.queue-dropdown-featured-mobile').innerHTML = `<i
-          class="material-icons">swap_vert</i>` + list_option
-        })
-    })
+    // document.querySelectorAll('.queue-type-list-mobile').forEach(function (element) {
+    //     element.addEventListener('click', function () {
+    //         let list_option = element.innerText
+    //         document.querySelector('.queue-dropdown-featured-mobile').innerHTML = `<i
+    //       class="material-icons">swap_vert</i>` + list_option
+    //     })
+    // })
 
 
 

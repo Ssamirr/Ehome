@@ -346,13 +346,14 @@ content: "";
 display: inline-block;
 } */
 
-.category_page_wrapper .category_page_container .product_filters_wrapper_desktop .product_filters_container .filters_inner_wrapper .apply_filters {
+.category_page_wrapper .category_page_container .apply_filters {
 display: inline-block;
 width: 100%;
 text-align: center;
 }
 
-.category_page_wrapper .category_page_container .product_filters_wrapper_desktop .product_filters_container .filters_inner_wrapper .apply_filters a {
+.category_page_wrapper .category_page_container .apply_filters button {
+  background:white;
 width: 161px;
 height: 45px;
 border-radius: 5px;
@@ -552,7 +553,7 @@ display: flex;
     -ms-flex-align: center;
         align-items: center;
 background: white;
-border: 2px solid rgba(0,0,0,.12);
+border: none;
 width: 164px;
 border-radius: 5px;
 }
@@ -567,9 +568,9 @@ width: 256px !important;
 width: 256px !important;
 }
 
-.dropdownn-filter:hover{
+/* .dropdownn-filter:hover{
 border: 2px solid #49bd68;
-}
+} */
 .dropdownn-filter:focus{
 outline: none;
 /* border-radius: 5px; */
@@ -579,13 +580,19 @@ outline: none;
 text-align: left;
 border-style: none;
 background: white;  
-padding: 5px 0px;
+padding: 0px;
 /* padding: 0.2rem 6.5rem 0.2rem 0.5rem; */
 font-size: 14px;
 font-family: MavenPro-SemiBold;
 width: 164px;
 white-space: nowrap;
 }
+
+.dropdownn-filter-featured select{
+  width: 100%;
+  padding: 5px 0px;
+}
+
 .dropdownn-filter-list{
 position: absolute;
 list-style: none;
@@ -989,7 +996,7 @@ font-family: MavenPro-SemiBold;
 }
 
 .category_page_container .mobile-filter-header-wrapper .mobile-filter-header-column {
-width: 50%;
+width: 100%;
 height: 45px;
 line-height: 45px;
 display: inline-block;
@@ -1241,7 +1248,23 @@ display: flex;
 z-index: 2;
 }
 
-.mobile-filter-menu-wrapper .mobile-filter-menu-columns .mobile-filter-menu-right-side .mobile-filter-content .mobile-apply-filters a {
+.mobile-filter-menu-wrapper .mobile-filter-menu-columns .mobile-filter-menu-right-side .mobile-filter-content .mobile-filter-list .mobile-filter .mobile-filter-toggle-div select{
+  width: 100%;
+background: white;
+border: none;
+font-family: MavenPro-SemiBold;
+font-size: 15px;
+font-style: normal;
+letter-spacing: 1.2px;
+color: #40484e;
+}
+
+.mobile-select-filter .mobile-filter-toggle-div {
+  display: flex;
+  align-items: center;
+}
+
+.mobile-filter-menu-wrapper .mobile-filter-menu-columns .mobile-filter-menu-right-side .mobile-filter-content .mobile-apply-filters button {
 max-width: 282px;
 width: 86%;
 height: 46px;
@@ -1757,6 +1780,7 @@ width: 1120px;
 @media screen and (max-width: 1079px) {
 
 .categories-filtering{
+  display:none !important;
   position: absolute;
   top: 32px !important;
   width: 100%;
@@ -1768,7 +1792,7 @@ width: 1120px;
   margin: 0px 15px;
 }
 .category_page_container{
-  margin-bottom: 50px !important;
+  margin-bottom: 20px !important;
 }
 .category_page_wrapper .category_page_container .mobile-filter-header-wrapper {
 display: -webkit-box;
@@ -1865,9 +1889,6 @@ height: 468px !important;
 }
 
 @media screen and (max-width: 460px) {
-.category_page_container{
-  margin-bottom: 90px !important;
-}
 .categories-filtering .mr-1{
   width: 50%;
   -webkit-box-pack: center;
@@ -1878,7 +1899,7 @@ height: 468px !important;
   display: flex;
   margin: 0px !important;
 }
-.categories-filtering div:last-child{
+.filter-third-select{
   position: absolute !important;
   top: 40px;
 }
