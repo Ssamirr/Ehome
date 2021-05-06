@@ -184,6 +184,7 @@ $(document).ready(function () {
             menu_content.classList.remove('open');
             main_header_wrapper.classList.remove('fix_position');
             body.classList.remove('overflow_hidden');
+            document.querySelector('html').classList.remove('overflow_hidden');
         }
         else {
             menu_button.classList.add('is-active');
@@ -191,6 +192,7 @@ $(document).ready(function () {
             menu_content.classList.add('open');
             main_header_wrapper.classList.add('fix_position');
             body.classList.add('overflow_hidden');
+            document.querySelector('html').classList.add('overflow_hidden');
         }
     })
 

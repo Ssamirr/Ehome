@@ -951,7 +951,7 @@ ul{
 }
 
 .mobile_layout_wrapper .menu-content {
-    top: 109px;
+    top: 120px;
     right: unset;
     left: 0;
     padding-bottom: 23%;
@@ -1016,6 +1016,16 @@ ul{
 
 .menu__item.only_link {
     background-color: rgba(64,72,78,.6);
+}
+
+.menu__item_select{
+    border-bottom: 1px solid rgba(64,72,78,.1);
+    border-bottom-color: rgba(64, 72, 78, 0.1);
+    color: #40484e;
+    background-color: transparent !important;
+    color: #fff !important;
+    border-color: rgba(255,255,255,.1) !important;
+    padding-left: 35px !important;
 }
 
 .menu__item {

@@ -677,6 +677,7 @@ position: absolute;
 top: 0;
 font-size: 12px;
 border-radius: 3px;
+left: 0;
 }
 
 .item-images{
@@ -692,6 +693,11 @@ margin: 0 0 6px;
 .votes_block.nstar {
 margin: 0 -2px 0;
 font-size: 0;
+text-align: left;
+}
+
+.item-title{
+  text-align: left;
 }
 
 .votes_block.nstar .ratings {
