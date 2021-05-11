@@ -29,7 +29,7 @@
     }
 
 .location-container .header_ul li a {
-    font-family: MavenPro-Regular;
+    font-family: EtelkaPro-Regular;
     font-size: 12px;
     font-weight: 500;
     letter-spacing: 1.03px;
@@ -60,7 +60,7 @@
 .location-header .location_output_title{
     float: left;
     width: 100%;
-    font-family: MavenPro-Regular;
+    font-family: EtelkaPro-Regular;
     font-size: 24px;
     font-weight: 500;
     letter-spacing: 3px;
@@ -72,7 +72,7 @@
 }
 
 .location-container .header_ul li:last-of-type a{
-    font-family: MavenPro-Bold
+    font-family: EtelkaPro-Bold
     }
 
 .location-ehome-map iframe{
@@ -80,7 +80,7 @@
 }
 
 .branch-location{
-    font-family: MavenPro-SemiBold;
+    font-family: EtelkaPro-SemiBold;
 }
 
 .location-information-ehome{
@@ -88,12 +88,12 @@
 }
 
 .location-information-ehome div{
-    font-family: MavenPro-Regular;
+    font-family: EtelkaPro-Regular;
     font-size: 14px;
 }
 /* .all-payment-terms .terms{
     font-size: 14px;
-    font-family: MavenPro-Regular;
+    font-family: EtelkaPro-Regular;
 } */
 
 @media screen and (min-width: 1121px) {

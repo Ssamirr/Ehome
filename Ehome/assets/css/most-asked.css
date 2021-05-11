@@ -27,7 +27,7 @@
     }
 
 .most-asked-container .header_ul li a {
-    font-family: MavenPro-Regular;
+    font-family: EtelkaPro-Regular;
     font-size: 12px;
     font-weight: 500;
     letter-spacing: 1.03px;
@@ -58,7 +58,7 @@
 .most-asked-header .most-asked_output_title{
     float: left;
     width: 100%;
-    font-family: MavenPro-Regular;
+    font-family: EtelkaPro-Regular;
     font-size: 24px;
     font-weight: 500;
     letter-spacing: 3px;
@@ -71,7 +71,7 @@
 }
 
 .most-asked-container .header_ul li:last-of-type a{
-    font-family: MavenPro-Bold
+    font-family: EtelkaPro-Bold
     }
 
 .section-most-asked .ul-most-asked .most-asked-question-answer{
@@ -81,7 +81,7 @@
 .most-asked-questions{
     font-size: 18px;
     color: #333;
-    font-family: MavenPro-SemiBold;
+    font-family: EtelkaPro-SemiBold;
     border-bottom:1px solid #7777772e;
     padding: 15px 0px;
     margin-bottom: 20px;
@@ -97,7 +97,7 @@
 .most-asked-answers{
     font-size: 16px;
     color: #333;
-    font-family: MavenPro-Regular;
+    font-family: EtelkaPro-Regular;
     padding: 0px 20px;
     margin: 0;
     overflow: hidden;

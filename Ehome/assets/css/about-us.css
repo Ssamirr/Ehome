@@ -27,7 +27,7 @@
     }
 
 .about-us-container .header_ul li a {
-    font-family: MavenPro-Regular;
+    font-family: EtelkaPro-Regular;
     font-size: 12px;
     font-weight: 500;
     letter-spacing: 1.03px;
@@ -58,7 +58,7 @@
 .about-us-header .about-us_output_title{
     float: left;
     width: 100%;
-    font-family: MavenPro-Regular;
+    font-family: EtelkaPro-Regular;
     font-size: 24px;
     font-weight: 500;
     letter-spacing: 3px;
@@ -70,12 +70,12 @@
 }
 
 .about-us-container .header_ul li:last-of-type a{
-    font-family: MavenPro-Bold
+    font-family: EtelkaPro-Bold;
     }
 
 .all-about-us-terms .terms{
     font-size: 14px;
-    font-family: MavenPro-Regular;
+    font-family: EtelkaPro-Regular;
 }
 
 @media screen and (min-width: 1121px) {

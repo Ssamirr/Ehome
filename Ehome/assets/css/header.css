@@ -13,57 +13,57 @@
 */
 
 @font-face {
-    font-family: MavenPro-Regular;
-    src: url(../fonts/MavenPro-Regular.ttf);
+    font-family: EtelkaPro-Regular;
+    src: url(../fonts/EtelkaPro-Regular.ttf);
   }
   
   @font-face {
-    font-family: MavenPro-Medium;
-    src: url(../fonts/MavenPro-Medium.ttf);
+    font-family: EtelkaPro-Medium;
+    src: url(../fonts/EtelkaPro-Medium.ttf);
   }
   
   @font-face {
-    font-family: MavenPro-SemiBold;
-    src: url(../fonts/MavenPro-SemiBold.ttf);
+    font-family: EtelkaPro-SemiBold;
+    src: url(../fonts/EtelkaPro-SemiBold.ttf);
   }
   
   @font-face {
-    font-family: MavenPro-Bold;
-    src: url(../fonts/MavenPro-Bold.ttf);
+    font-family: EtelkaPro-Bold;
+    src: url(../fonts/EtelkaPro-Bold.ttf);
   }
   
   @font-face {
-    font-family: MavenPro-ExtraBold;
-    src: url(../fonts/MavenPro-ExtraBold.ttf);
+    font-family: EtelkaPro-ExtraBold;
+    src: url(../fonts/EtelkaPro-ExtraBold.ttf);
   }
   
   h1 {
-    font-family: MavenPro-Regular;
+    font-family: EtelkaPro-Regular;
     margin: 0px;
   }
   
   h2 {
-    font-family: MavenPro-Regular;
+    font-family: EtelkaPro-Regular;
     margin: 0px;
   }
   
   h3 {
-    font-family: MavenPro-Regular;
+    font-family: EtelkaPro-Regular;
     margin: 0px;
   }
   
   h4 {
-    font-family: MavenPro-Regular;
+    font-family: EtelkaPro-Regular;
     margin: 0px;
   }
   
   h5 {
-    font-family: MavenPro-Regular;
+    font-family: EtelkaPro-Regular;
     margin: 0px;
   }
   
   h6 {
-    font-family: MavenPro-Regular;
+    font-family: EtelkaPro-Regular;
     margin: 0px;
   }
 
@@ -102,7 +102,7 @@ ul{
 }
 
 .desktop_layout_wrapper .top_header_wrapper .top_header_inner .top_header_inner_left ul li a {
-    font-family: MavenPro-SemiBold;
+    font-family: EtelkaPro-SemiBold;
     font-size: 12px;
     font-weight: 500;
     line-height: 35px;
@@ -155,7 +155,7 @@ ul{
 }
 
 .desktop_layout_wrapper .top_header_wrapper .top_header_inner .top_header_inner_right ul li a .top_header_inner_right_text {
-    font-family: MavenPro-SemiBold;
+    font-family: EtelkaPro-SemiBold;
     font-size: 12px;
     font-weight: 500;
     display: inline-block;
@@ -214,7 +214,7 @@ ul{
     border-bottom: solid 1px #40484e;
     display: block;
     opacity: .4;
-    font-family:MavenPro-Regular;
+    font-family:EtelkaPro-Regular;
     font-size: 12px;
     letter-spacing: .7px;
     color: #40484e;
@@ -262,7 +262,7 @@ ul{
 }
 
 .desktop_layout_wrapper .middle_header_wrapper .middle_header_inner .middle_header_inner_shortcuts_wrapper .shortcuts_list .shortcut_column .shortcut_title .shortcut_text {
-    font-family: MavenPro-SemiBold;
+    font-family: EtelkaPro-SemiBold;
     font-size: 12px;
     font-weight: 500;
     letter-spacing: .7px;
@@ -310,7 +310,7 @@ ul{
 }
 
 .desktop_layout_wrapper .middle_header_wrapper .middle_header_inner .middle_header_inner_shortcuts_wrapper .shortcuts_list .shortcut_column .shortcut_detail.login_popup_inner .login_popup_header .login_popup_header_ul li a {
-    font-family: MavenPro-Regular;
+    font-family: EtelkaPro-Regular;
     font-weight: 500;
     font-size: 12px;
     letter-spacing: 1.4px;
@@ -345,7 +345,7 @@ ul{
     width: 100%;
     display: inline-block;
     opacity: .6;
-    font-family: MavenPro-Regular;
+    font-family: EtelkaPro-Regular;
     font-size: 12px;
     font-weight: 500;
     text-align: center;
@@ -384,7 +384,7 @@ ul{
     width: 100%;
     height: 60px;
     line-height: 60px;
-    font-family:MavenPro-Regular;
+    font-family:EtelkaPro-Regular;
     font-size: 12px;
     font-weight: 500;
     letter-spacing: 2px;
@@ -429,7 +429,7 @@ ul{
 
 .desktop_layout_wrapper .main_menu_wrapper .main_menu_categories .main_menu_category_list_wrapper .main_category_list .main_category_name {
     display: inline-block;
-    font-family: MavenPro-SemiBold;
+    font-family: EtelkaPro-SemiBold;
     font-size: 12px;
     font-weight: 500;
     letter-spacing: .5px;
@@ -496,7 +496,7 @@ ul{
     float: left;
     width: 100%;
     display: inline-block;
-    font-family:MavenPro-Regular;
+    font-family:EtelkaPro-Regular;
     font-size: 13px;
     font-weight: 500;
     color: #40484e;
@@ -533,7 +533,7 @@ ul{
 }
 
 .desktop_layout_wrapper .main_menu_wrapper .main_menu_categories .main_menu_category_list_wrapper .main_category_list .main_category_inner .main_category_inner_container .subcategories_column .img_column_inner .img_column_cta_box .short_desc {
-    font-family: MavenPro-Regular;
+    font-family: EtelkaPro-Regular;
     font-size: 14px;
     font-weight: 500;
     text-align: center;
@@ -543,7 +543,7 @@ ul{
 }
 
 .desktop_layout_wrapper .main_menu_wrapper .main_menu_categories .main_menu_category_list_wrapper .main_category_list .main_category_inner .main_category_inner_container .subcategories_column .img_column_inner .img_column_cta_box .column_cta {
-    font-family: MavenPro-SemiBold;
+    font-family: EtelkaPro-SemiBold;
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 1px;
@@ -614,18 +614,18 @@ ul{
 }
 
 .desktop_layout_wrapper .main_menu_wrapper .main_menu_categories .main_menu_category_list_wrapper .main_category_list .main_category_inner .main_category_inner_container .subcategories_column .subcategories_list li .subcategory_name.head_category {
-    font-family: MavenPro-SemiBold;
+    font-family: EtelkaPro-SemiBold;
     font-size: 12px;
 }
 
 .signup2 {
     color: #49bd68;
-    font-family: MavenPro-Bold;
+    font-family: EtelkaPro-Bold;
 }
 
 .welcome{
     color: #49bd68;
-    font-family: MavenPro-Bold;
+    font-family: EtelkaPro-Bold;
 }
 
 .joinj {
@@ -640,7 +640,7 @@ ul{
     padding: 6px 70px 6px 70px;
     width: 300px;
     height: 50px;
-    font-family: MavenPro-SemiBold;
+    font-family: EtelkaPro-SemiBold;
     border-radius: 6px;
     background-color: #49bd68;
     color: white;
@@ -650,7 +650,7 @@ ul{
 }
 
 .class-link-join, .reset-modal{
-    font-family: MavenPro-Bold;
+    font-family: EtelkaPro-Bold;
 }
 
 .linkjoin, .joinfooter{
@@ -680,7 +680,7 @@ ul{
 }
 
 .mobile_layout_wrapper .top_header_wrapper ul li a {
-    font-family: MavenPro-Bold;
+    font-family: EtelkaPro-Bold;
     display: inline-block;
     font-size: 12px;
     font-weight: 500;
@@ -863,7 +863,7 @@ ul{
     background-color: #f5f5f5;
     padding: 10px 15px;
     outline: 0;
-    font-family: MavenPro-Regular;
+    font-family: EtelkaPro-Regular;
     font-size: 15px;
     font-weight: 500;
     color: rgba(64,72,78,.4);
@@ -926,7 +926,7 @@ ul{
 }
 
 .tt-dataset b, .tt-suggestion .tt-highlight {
-    font-family: MavenPro-Bold;
+    font-family: EtelkaPro-Bold;
     font-weight: 500;
 }
 
@@ -934,7 +934,7 @@ ul{
     padding: 4px 5px;
     line-height: 24px;
     color: #666459;
-    font-family: MavenPro-Regular;
+    font-family: EtelkaPro-Regular;
     font-size: 13px;
     text-transform: lowercase;
     -o-text-overflow: ellipsis;
@@ -1158,7 +1158,7 @@ body.overflow_hidden {
 }
 
 .menu__item a {
-    font-family: MavenPro-Bold;
+    font-family: EtelkaPro-Bold;
     font-size: 14px !important;
     font-weight: 500;
     letter-spacing: 1px;
@@ -1210,7 +1210,7 @@ body.overflow_hidden {
 .mobile_layout_wrapper .menu-content .menu .to-left-ul .menu__sub-menu .menu__sub-menu__item .menu__sub-menu__link {
     text-transform: capitalize;
     height: 60px;
-    font-family: MavenPro-Regular;
+    font-family: EtelkaPro-Regular;
 }
 
 .menu-button.is-active .burger-icon::before {

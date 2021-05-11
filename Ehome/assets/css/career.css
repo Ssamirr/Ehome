@@ -29,7 +29,7 @@
     }
 
 .career-container .header_ul li a {
-    font-family: MavenPro-Regular;
+    font-family: EtelkaPro-Regular;
     font-size: 12px;
     font-weight: 500;
     letter-spacing: 1.03px;
@@ -60,7 +60,7 @@
 .career-header .career_output_title{
     float: left;
     width: 100%;
-    font-family: MavenPro-Regular;
+    font-family: EtelkaPro-Regular;
     font-size: 24px;
     font-weight: 500;
     letter-spacing: 3px;
@@ -73,7 +73,7 @@
 }
 
 .career-container .header_ul li:last-of-type a{
-    font-family: MavenPro-Bold
+    font-family: EtelkaPro-Bold
     }
 
 .section-career .ul-career .career-question-answer{
@@ -83,7 +83,7 @@
 .career-questions{
     font-size: 18px;
     color: #333;
-    font-family: MavenPro-SemiBold;
+    font-family: EtelkaPro-SemiBold;
     border-bottom:1px solid #7777772e;
     padding: 15px 0px;
     margin-bottom: 20px;
@@ -99,7 +99,7 @@
 .career-answers{
     font-size: 16px;
     color: #333;
-    font-family: MavenPro-Regular;
+    font-family: EtelkaPro-Regular;
     padding: 0px 20px;
     margin: 0;
     overflow: hidden;
@@ -111,7 +111,7 @@
     padding: 0px 20px;
     display: flex;
     margin-bottom: 20px;
-    font-family: MavenPro-SemiBold;
+    font-family: EtelkaPro-SemiBold;
 }
 .form-input input, .form-input select, .form-input textarea{
     width: 100%;
@@ -125,7 +125,7 @@
     border-radius: 5px;
     border: 1px solid #40484e;
     display: inline-block;
-    font-family: MavenPro-SemiBold;
+    font-family: EtelkaPro-SemiBold;
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 1.28px;

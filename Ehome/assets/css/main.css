@@ -5,65 +5,53 @@
 * Browsers: last 4 version
 */
 
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
-
 @font-face {
-    font-family: MavenPro-Regular;
-    src: url(../fonts/MavenPro-Regular.ttf);
+    font-family: EtelkaPro-Regular;
+    src: url(../fonts/EtelkaPro-Regular.ttf);
   }
   
   @font-face {
-    font-family: MavenPro-Medium;
-    src: url(../fonts/MavenPro-Medium.ttf);
+    font-family: EtelkaPro-Medium;
+    src: url(../fonts/EtelkaPro-Medium.ttf);
   }
   
   @font-face {
-    font-family: MavenPro-SemiBold;
-    src: url(../fonts/MavenPro-SemiBold.ttf);
+    font-family: EtelkaPro-SemiBold;
+    src: url(../fonts/EtelkaPro-SemiBold.ttf);
   }
   
   @font-face {
-    font-family: MavenPro-Bold;
-    src: url(../fonts/MavenPro-Bold.ttf);
-  }
-  
-  @font-face {
-    font-family: MavenPro-ExtraBold;
-    src: url(../fonts/MavenPro-ExtraBold.ttf);
+    font-family: EtelkaPro-Bold;
+    src: url(../fonts/EtelkaPro-Bold.ttf);
   }
   
   h1 {
-    font-family: MavenPro-Regular;
+    font-family: EtelkaPro-Regular;
     margin: 0px;
   }
   
   h2 {
-    font-family: MavenPro-Regular;
+    font-family: EtelkaPro-Regular;
     margin: 0px;
   }
   
   h3 {
-    font-family: MavenPro-Regular;
+    font-family: EtelkaPro-Regular;
     margin: 0px;
   }
   
   h4 {
-    font-family: MavenPro-Regular;
+    font-family: EtelkaPro-Regular;
     margin: 0px;
   }
   
   h5 {
-    font-family: MavenPro-Regular;
+    font-family: EtelkaPro-Regular;
     margin: 0px;
   }
   
   h6 {
-    font-family: MavenPro-Regular;
+    font-family: EtelkaPro-Regular;
     margin: 0px;
   }
 
@@ -72,7 +60,7 @@ html{
 }
 
 body{
-    font-family: MavenPro-Regular;
+    font-family: EtelkaPro-Regular;
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
@@ -200,7 +188,7 @@ body{
         -ms-flex-align: center;
             align-items: center;
     border-right: solid 1px rgba(64,72,78,.12);
-    font-family: MavenPro-SemiBold;
+    font-family: EtelkaPro-SemiBold;
 }
 
 .company-services .service-for-company:last-of-type{
@@ -218,7 +206,7 @@ body{
 .popular_categories_widget_output .popular_categories_title {
     float: left;
     width: 100%;
-    font-family: MavenPro-Regular;
+    font-family: EtelkaPro-Regular;
     font-size: 24px;
     font-weight: 500;
     letter-spacing: 3px;
@@ -298,7 +286,7 @@ body{
 .popular_categories_widget_output .popular_categories_inner .popular_categories_widget_ul li .popular_categories_widget_output_cta .popular_category_inner .popular_category_inner_column .text_column_inner .vertical_middle .category_title {
     width: 100%;
     float: left;
-    font-family: MavenPro-SemiBold;
+    font-family: EtelkaPro-SemiBold;
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 0.8px;
@@ -321,7 +309,7 @@ body{
 }
 
 .popular_categories_widget_output .popular_categories_inner .popular_categories_widget_ul li .popular_categories_widget_output_cta .popular_category_inner .popular_category_inner_column .text_column_inner .vertical_middle .category_campaign_text_wrapper .category_campaign_text_inner .category_discount_value {
-    font-family: MavenPro-Regular;
+    font-family: EtelkaPro-Regular;
     font-size: 22px;
     font-weight: 500;
     color: rgba(201, 62, 99, 0.8);
@@ -330,7 +318,7 @@ body{
 }
 
 .popular_categories_widget_output .popular_categories_inner .popular_categories_widget_ul li .popular_categories_widget_output_cta .popular_category_inner .popular_category_inner_column .text_column_inner .vertical_middle .category_campaign_text_wrapper .category_campaign_text_inner .category_discount_currency {
-    font-family: MavenPro-Regular;
+    font-family: EtelkaPro-Regular;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.3;
@@ -340,7 +328,7 @@ body{
 }
 
 .popular_categories_widget_output .popular_categories_inner .popular_categories_widget_ul li .popular_categories_widget_output_cta .popular_category_inner .popular_category_inner_column .text_column_inner .vertical_middle .category_campaign_text_wrapper .category_campaign_text_inner .category_discount_first_word {
-    font-family: MavenPro-Regular;
+    font-family: EtelkaPro-Regular;
     font-size: 13px;
     font-weight: 500;
     color: rgba(201, 62, 99, 0.8);
@@ -396,7 +384,7 @@ body{
 .main_product_output .main_product_products_output_title{
     float: left;
     width: 100%;
-    font-family: MavenPro-Regular;
+    font-family: EtelkaPro-Regular;
     font-size: 24px;
     font-weight: 500;
     letter-spacing: 3px;
@@ -458,7 +446,7 @@ body{
 .main_product_output ul li a .product_info h3{
     float: left;
     width: 100%;
-    font-family:MavenPro-SemiBold;
+    font-family:EtelkaPro-SemiBold;
     font-size: 12px;
     font-weight: 500;
     line-height: 24px;
@@ -472,7 +460,7 @@ body{
     color: #40484e !important;
     float: left;
     width: 100%;
-    font-family: MavenPro-SemiBold;
+    font-family: EtelkaPro-SemiBold;
     font-size: 16px;
     font-weight: 500;
     line-height: 30px;
@@ -494,7 +482,7 @@ body{
 .main_product_output ul li a .price_badge .main_product_products_output_psf{
     float: left;
     width: 100%;
-    font-family: MavenPro-Regular;
+    font-family: EtelkaPro-Regular;
     font-size: 14px;
     font-weight: 500;
     text-align: center;
@@ -518,7 +506,7 @@ body{
 .main_product_output ul li a .price_badge .main_product_products_output_price{
     float: left;
     width: 100%;
-    font-family: MavenPro-Regular;
+    font-family: EtelkaPro-Regular;
     font-size: 14px;
     font-weight: 500;
     text-align: center;
@@ -664,13 +652,13 @@ body .overlay_site .element .anime {
 }
 
 #owl-carousel-blog h5{
-    font-family:  MavenPro-SemiBold !important;
+    font-family:  EtelkaPro-SemiBold !important;
 }
 
 .read-more-blog{
     background: #49bd68;
     color: white;
-    font-family: MavenPro-SemiBold;
+    font-family: EtelkaPro-SemiBold;
 }
 
 .read-more-blog:hover{
@@ -680,7 +668,7 @@ body .overlay_site .element .anime {
 
 .about-site{
     margin: auto;
-    font-family: MavenPro-Regular;
+    font-family: EtelkaPro-Regular;
 }
 
 .view-all{
@@ -691,7 +679,7 @@ body .overlay_site .element .anime {
 .view-all a{
     color: #49bd68;
     text-decoration: underline;
-    font-family: MavenPro-SemiBold;
+    font-family: EtelkaPro-SemiBold;
     font-size: 14px;
 }
 
@@ -763,7 +751,7 @@ body .overlay_site .element .anime {
     
     .pagination_wrapper .pagination_ul li a {
     text-decoration: none;
-    font-family: MavenPro-SemiBold;
+    font-family: EtelkaPro-SemiBold;
     font-size: 12px;
     color: #40484e;
     float: left;

@@ -13,57 +13,57 @@
 */
 
 @font-face {
-  font-family: MavenPro-Regular;
-  src: url(../fonts/MavenPro-Regular.ttf);
+  font-family: EtelkaPro-Regular;
+  src: url(../fonts/EtelkaPro-Regular.ttf);
 }
 
 @font-face {
-  font-family: MavenPro-Medium;
-  src: url(../fonts/MavenPro-Medium.ttf);
+  font-family: EtelkaPro-Medium;
+  src: url(../fonts/EtelkaPro-Medium.ttf);
 }
 
 @font-face {
-  font-family: MavenPro-SemiBold;
-  src: url(../fonts/MavenPro-SemiBold.ttf);
+  font-family: EtelkaPro-SemiBold;
+  src: url(../fonts/EtelkaPro-SemiBold.ttf);
 }
 
 @font-face {
-  font-family: MavenPro-Bold;
-  src: url(../fonts/MavenPro-Bold.ttf);
+  font-family: EtelkaPro-Bold;
+  src: url(../fonts/EtelkaPro-Bold.ttf);
 }
 
 @font-face {
-  font-family: MavenPro-ExtraBold;
-  src: url(../fonts/MavenPro-ExtraBold.ttf);
+  font-family: EtelkaPro-ExtraBold;
+  src: url(../fonts/EtelkaPro-ExtraBold.ttf);
 }
 
 h1 {
-  font-family: MavenPro-Regular;
+  font-family: EtelkaPro-Regular;
   margin: 0px;
 }
 
 h2 {
-  font-family: MavenPro-Regular;
+  font-family: EtelkaPro-Regular;
   margin: 0px;
 }
 
 h3 {
-  font-family: MavenPro-Regular;
+  font-family: EtelkaPro-Regular;
   margin: 0px;
 }
 
 h4 {
-  font-family: MavenPro-Regular;
+  font-family: EtelkaPro-Regular;
   margin: 0px;
 }
 
 h5 {
-  font-family: MavenPro-Regular;
+  font-family: EtelkaPro-Regular;
   margin: 0px;
 }
 
 h6 {
-  font-family: MavenPro-Regular;
+  font-family: EtelkaPro-Regular;
   margin: 0px;
 }
 
@@ -78,13 +78,13 @@ h6 {
 }
 
 .footer-site h5{
-font-family: MavenPro-Bold !important;
+font-family: EtelkaPro-Bold !important;
 opacity: 0.5;
 font-size: 18px !important;
 }
 
 .main-name{
-  font-family: MavenPro-Bold !important;
+  font-family: EtelkaPro-Bold !important;
   opacity: 1 !important;
 }
 
@@ -98,7 +98,7 @@ font-size: 18px !important;
 
 .footer-sublist li a{
   color: white;
-  font-family: MavenPro-Regular;
+  font-family: EtelkaPro-Regular;
   
 }
 
@@ -182,7 +182,7 @@ body .overlay_site .element .anime {
 
 .for-follow-email{
   border-radius:5px;
-  font-family: MavenPro-Bold;
+  font-family: EtelkaPro-Bold;
 }
 
 @media screen and (min-width: 1120px) {

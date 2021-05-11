@@ -6,57 +6,57 @@
 */
 
 @font-face {
-  font-family: MavenPro-Regular;
-  src: url(../fonts/MavenPro-Regular.ttf);
+  font-family: EtelkaPro-Regular;
+  src: url(../fonts/EtelkaPro-Regular.ttf);
 }
 
 @font-face {
-  font-family: MavenPro-Medium;
-  src: url(../fonts/MavenPro-Medium.ttf);
+  font-family: EtelkaPro-Medium;
+  src: url(../fonts/EtelkaPro-Medium.ttf);
 }
 
 @font-face {
-  font-family: MavenPro-SemiBold;
-  src: url(../fonts/MavenPro-SemiBold.ttf);
+  font-family: EtelkaPro-SemiBold;
+  src: url(../fonts/EtelkaPro-SemiBold.ttf);
 }
 
 @font-face {
-  font-family: MavenPro-Bold;
-  src: url(../fonts/MavenPro-Bold.ttf);
+  font-family: EtelkaPro-Bold;
+  src: url(../fonts/EtelkaPro-Bold.ttf);
 }
 
 @font-face {
-  font-family: MavenPro-ExtraBold;
-  src: url(../fonts/MavenPro-ExtraBold.ttf);
+  font-family: EtelkaPro-ExtraBold;
+  src: url(../fonts/EtelkaPro-ExtraBold.ttf);
 }
 
 h1 {
-  font-family: MavenPro-Regular;
+  font-family: EtelkaPro-Regular;
   margin: 0px;
 }
 
 h2 {
-  font-family: MavenPro-Regular;
+  font-family: EtelkaPro-Regular;
   margin: 0px;
 }
 
 h3 {
-  font-family: MavenPro-Regular;
+  font-family: EtelkaPro-Regular;
   margin: 0px;
 }
 
 h4 {
-  font-family: MavenPro-Regular;
+  font-family: EtelkaPro-Regular;
   margin: 0px;
 }
 
 h5 {
-  font-family: MavenPro-Regular;
+  font-family: EtelkaPro-Regular;
   margin: 0px;
 }
 
 h6 {
-  font-family: MavenPro-Regular;
+  font-family: EtelkaPro-Regular;
   margin: 0px;
 }
 
@@ -94,7 +94,7 @@ margin-right: 0px !important;
 }
 
 .category-header_container .header_ul li a {
-font-family: MavenPro-Regular;
+font-family: EtelkaPro-Regular;
 font-size: 12px;
 font-weight: 500;
 letter-spacing: 1.03px;
@@ -104,7 +104,7 @@ line-height: 20px;
 }
 
 .category-header_container .header_ul li:last-of-type a{
-font-family: MavenPro-Bold
+font-family: EtelkaPro-Bold
 }
 
 .category-item{
@@ -120,7 +120,7 @@ height: 103px;
 margin-top: 10px;
 text-align: center;
 width: 100%;
-font-family: MavenPro-Regular;
+font-family: EtelkaPro-Regular;
 font-size: 14px;
 font-weight: 500;
 letter-spacing: 1px;
@@ -223,7 +223,7 @@ top: 0;
 
 .category_page_wrapper .category_page_container .product_filters_wrapper_desktop .product_filters_container .filters_title_wrapper .filters_title_list li a {
 text-decoration: none;
-font-family: MavenPro-SemiBold;
+font-family: EtelkaPro-SemiBold;
 font-size: 14px;
 font-weight: 500;
 letter-spacing: 1.2px;
@@ -328,7 +328,7 @@ cursor: pointer;
 }
 
 .category_page_wrapper .category_page_container .product_filters_wrapper_desktop .product_filters_container .filters_inner_wrapper .filters_inner_list .filter_wrapper .filter_list li .filter_container .filter_label .filter_name, .category_page_wrapper .category_page_container .product_filters_wrapper_desktop .product_filters_container .filters_inner_wrapper .filters_inner_list .filter_wrapper .filter_list li .filter_container .filter_label .product_count {
-font-family: MavenPro-Regular;
+font-family: EtelkaPro-Regular;
 font-size: 14px;
 font-weight: 500;
 letter-spacing: 1.2px;
@@ -359,7 +359,7 @@ height: 45px;
 border-radius: 5px;
 border: 1px solid #40484e;
 display: inline-block;
-font-family: MavenPro-SemiBold;
+font-family: EtelkaPro-SemiBold;
 font-size: 16px;
 font-weight: 500;
 letter-spacing: 1.28px;
@@ -431,7 +431,7 @@ display: flex;
     -ms-flex-align: center;
         align-items: center;
 left: -22px;
-font-family: MavenPro-SemiBold;
+font-family: EtelkaPro-SemiBold;
 font-size: 14px;
 }
 
@@ -487,7 +487,7 @@ display: flex !important;
 .range-filter-name{
 margin-bottom: 3px;
 font-size: 14px;
-font-family: MavenPro-SemiBold;
+font-family: EtelkaPro-SemiBold;
 }
 
 .inputs_wrapper{
@@ -517,7 +517,7 @@ margin-left: 10px;
 
 .name-category{
 font-size: 16px;
-font-family: MavenPro-SemiBold;
+font-family: EtelkaPro-SemiBold;
 margin-right: 10px;
 }
 
@@ -532,7 +532,7 @@ margin: 0;
 
 .count-item li a{
 font-size: 14px;
-font-family: MavenPro-SemiBold;
+font-family: EtelkaPro-SemiBold;
 text-decoration: none;
 color: black;
 }
@@ -583,7 +583,7 @@ background: white;
 padding: 0px;
 /* padding: 0.2rem 6.5rem 0.2rem 0.5rem; */
 font-size: 14px;
-font-family: MavenPro-SemiBold;
+font-family: EtelkaPro-SemiBold;
 width: 164px;
 white-space: nowrap;
 }
@@ -610,7 +610,7 @@ z-index: 2;
 font-size: 14px;
 padding: 10px 10px;
 text-decoration: none;
-font-family: MavenPro-Regular;
+font-family: EtelkaPro-Regular;
 line-height: 1.42857143 !important;
 border-bottom:1px solid #7777772e;
 }
@@ -623,7 +623,7 @@ border-bottom:none !important;
 color: black;
 font-size: 14px;
 text-decoration: none;
-font-family: MavenPro-SemiBold;
+font-family: EtelkaPro-SemiBold;
 opacity: 0.7;
 }
 
@@ -634,7 +634,7 @@ color: #fff;
 
 .countt-itemm{
 font-size:15px;
-font-family:MavenPro-SemiBold;
+font-family:EtelkaPro-SemiBold;
 }
 
 .dropdownn-filter-list li:hover a{
@@ -652,7 +652,7 @@ margin: auto;
 
 .about-category{
 margin: auto;
-font-family: MavenPro-Regular;
+font-family: EtelkaPro-Regular;
 }
 
 
@@ -668,7 +668,7 @@ margin:auto;
 padding: 2px 7px 2px;
 margin: 0 2px 4px;
 letter-spacing: normal;
-font-family: MavenPro-Regular;
+font-family: EtelkaPro-Regular;
 background-color: #49bd68;
 width: auto;
 display: inline-block;
@@ -716,7 +716,7 @@ padding: 0 0 0 2px;
 
 .item-title a{
 color: #333 !important;
-font-family:MavenPro-Regular;
+font-family:EtelkaPro-Regular;
 font-size:14px;
 }
 .inner_rating .fa-star{
@@ -855,12 +855,12 @@ line-height: 1.692em;
 
 .for-credit,.credit-price{
 font-size:14px;
-font-family:MavenPro-Regular;
+font-family:EtelkaPro-Regular;
 }
 
 .credit-price{
 color:#49bd68;
-font-family: MavenPro-SemiBold;
+font-family: EtelkaPro-SemiBold;
 }
 
 .cash-price-percent{
@@ -871,7 +871,7 @@ border-radius: 5px;
 }
 
 .cash-pricee{
-font-family: MavenPro-SemiBold;
+font-family: EtelkaPro-SemiBold;
 color:red;
 white-space: nowrap;
 }
@@ -984,7 +984,7 @@ max-height: 100%;
 
 .block-item__title span{
 font-size: 12px;
-font-family: MavenPro-Regular
+font-family: EtelkaPro-Regular
 }
 
 .block-item__title a{
@@ -998,7 +998,7 @@ color: #49bd68;
 
 .block-item__price{
 font-size: 14px;
-font-family: MavenPro-SemiBold;
+font-family: EtelkaPro-SemiBold;
 }
 
 .category_page_container .mobile-filter-header-wrapper .mobile-filter-header-column {
@@ -1060,7 +1060,7 @@ line-height: 30px !important;
 .filter-panel-opener a{
 text-decoration: none;
 color: #333;
-font-family: MavenPro-Semibold;
+font-family: EtelkaPro-Semibold;
 display: -webkit-box;
 display: -ms-flexbox;
 display: flex;
@@ -1121,7 +1121,7 @@ text-align: center;
 }
 
 .mobile-filter-menu-wrapper .mobile-filter-menu-columns .mobile-filter-menu-right-side .mobile-filter-menu-header .filter-header {
-font-family: MavenPro-SemiBold;
+font-family: EtelkaPro-SemiBold;
 font-size: 16px;
 color: #40484e;
 float: left;
@@ -1131,7 +1131,7 @@ margin-left: 15px;
 
 .mobile-filter-menu-wrapper .mobile-filter-menu-columns .mobile-filter-menu-right-side .mobile-filter-menu-header .filter-clear {
 opacity: .4;
-font-family: MavenPro-SemiBold;
+font-family: EtelkaPro-SemiBold;
 font-size: 15px;
 letter-spacing: 1.2px;
 color: #40484e;
@@ -1194,7 +1194,7 @@ width: 100%;
 }
 
 .mobile-filter-menu-wrapper .mobile-filter-menu-columns .mobile-filter-menu-right-side .mobile-filter-content .mobile-filter-list .mobile-filter .mobile-filter-toggle-div .mobile-filter-info-div .mobile-filter-info-span .mobile-filter-name {
-font-family: MavenPro-SemiBold;
+font-family: EtelkaPro-SemiBold;
 font-size: 15px;
 font-style: normal;
 letter-spacing: 1.2px;
@@ -1210,7 +1210,7 @@ display: inline-flex;
 
 .mobile-filter-menu-wrapper .mobile-filter-menu-columns .mobile-filter-menu-right-side .mobile-filter-content .mobile-filter-list .mobile-filter .mobile-filter-toggle-div .mobile-filter-info-div .mobile-filter-info-span .mobile-filter-selected {
 color: #40484e;
-font-family: MavenPro-Regular;
+font-family: EtelkaPro-Regular;
 font-size: 14px;
 letter-spacing: 1.12px;
 overflow: hidden;
@@ -1258,7 +1258,7 @@ z-index: 2;
   width: 100%;
 background: white;
 border: none;
-font-family: MavenPro-SemiBold;
+font-family: EtelkaPro-SemiBold;
 font-size: 15px;
 font-style: normal;
 letter-spacing: 1.2px;
@@ -1278,7 +1278,7 @@ border-radius: 5px;
 background-color: #40484e;
 border: 1px solid #40484e;
 display: inline-block;
-font-family: MavenPro-SemiBold;
+font-family: EtelkaPro-SemiBold;
 font-size: 16px;
 font-weight: 500;
 letter-spacing: 1.28px;
@@ -1346,7 +1346,7 @@ width: 100%;
 }
 
 .mobile-filter-menu-wrapper .mobile-filter-menu-columns .mobile-filter-menu-right-side .mobile-filter-content .mobile-filter-list .mobile-filter .mobile-filter-option-list li .filter_container .filter_label .filter_name {
-font-family: MavenPro-Regular;
+font-family: EtelkaPro-Regular;
 font-size: 14px;
 font-weight: 500;
 letter-spacing: 1.2px;
@@ -1355,7 +1355,7 @@ margin-left: 9px;
 }
 
 .mobile-filter-menu-wrapper .mobile-filter-menu-columns .mobile-filter-menu-right-side .mobile-filter-content .mobile-filter-list .mobile-filter .mobile-filter-option-list li .filter_container .filter_label .product_count {
-font-family: MavenPro-Regular;
+font-family: EtelkaPro-Regular;
 font-size: 14px;
 font-weight: 500;
 letter-spacing: 1.2px;
@@ -1425,7 +1425,7 @@ color: #40484e !important;
 }
 
 .inputs_wrapper .measurement-unit{
-  font-family: MavenPro-SemiBold;
+  font-family: EtelkaPro-SemiBold;
   font-size: 14px;
   position: absolute;
   top: 8px;
@@ -1486,7 +1486,7 @@ color: #40484e !important;
 
 .list-view-item-name a{
   color: #333 !important;
-  font-family: MavenPro-Regular;
+  font-family: EtelkaPro-Regular;
   font-size: 14px
 }
 
@@ -1542,7 +1542,7 @@ color: #40484e !important;
 
 .one-click-header{
   color: #49bd68;
-  font-family: MavenPro-Bold;
+  font-family: EtelkaPro-Bold;
 }
 
 .modal-item-icon{
@@ -1562,7 +1562,7 @@ color: #40484e !important;
 }
 
 .modal-item-icon span{
-  font-family: MavenPro-Regular;
+  font-family: EtelkaPro-Regular;
   font-size: 14px;
   transition: 0.3s all;
 }
@@ -1596,7 +1596,7 @@ color: #40484e !important;
 
 .modal-quick-view-item-stock .value-quick-view{
   font-size: 12px;
-  font-family: MavenPro-Regular;
+  font-family: EtelkaPro-Regular;
   border-bottom: 1px dotted;
   color: #49bd68;
 }
@@ -1612,7 +1612,7 @@ color: #40484e !important;
 .modal-quick-view-article_block .muted-quick-view{
   color: #999;
   font-size: 12px;
-  font-family: MavenPro-Regular;
+  font-family: EtelkaPro-Regular;
 }
 
 .buy-one-click-quick-view{
@@ -1621,7 +1621,7 @@ color: #40484e !important;
   border-radius: 5px;
   border: 1px solid #40484e;
   display: inline-block;
-  font-family: MavenPro-SemiBold;
+  font-family: EtelkaPro-SemiBold;
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 1.28px;
@@ -1645,7 +1645,7 @@ color: #40484e !important;
   border-radius: 5px;
   border: 1px solid #40484e;
   display: inline-block;
-  font-family: MavenPro-SemiBold;
+  font-family: EtelkaPro-SemiBold;
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 1.28px;
@@ -1663,7 +1663,7 @@ color: #40484e !important;
 .product-features-questions-quick-view {
   font-size: 14px;
   color: #333;
-  font-family: MavenPro-SemiBold;
+  font-family: EtelkaPro-SemiBold;
   border-bottom: 1px solid #7777772e;
   padding: 5px 0px;
       padding-left: 0px;
@@ -1677,7 +1677,7 @@ color: #40484e !important;
 .product-features-answers-quick-view {
   font-size: 12px;
   color: #333;
-  font-family: MavenPro-Regular;
+  font-family: EtelkaPro-Regular;
   padding: 0px 20px;
   margin: 0;
   overflow: hidden;
