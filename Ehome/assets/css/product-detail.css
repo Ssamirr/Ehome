@@ -53,7 +53,7 @@
 }
 
 .product-detail-container .header_ul li:last-of-type a{
-    font-family: CirceRounded-Bold
+    font-family: CirceRounded-ExtraBold
     }
 
 .row.carousel-holder {
@@ -535,7 +535,7 @@
 	
 	.block-item__price{
 	font-size: 14px;
-	font-family: CirceRounded-SemiBold;
+	font-family: CirceRounded-Bold;
 	}
 
 #owl-carousel-item-same:hover .owl-nav .owl-prev ,#owl-carousel-item-same:hover .owl-nav .owl-next{
@@ -558,7 +558,7 @@
 	padding: 0px 20px;
 	display: flex;
 	margin-bottom: 20px;
-	font-family: CirceRounded-SemiBold;
+	font-family: CirceRounded-Bold;
 	}
 
 .form-input input, .form-input select, .form-input textarea {
@@ -573,7 +573,7 @@
     border-radius: 5px;
     border: 1px solid #40484e;
     display: inline-block;
-    font-family: CirceRounded-SemiBold;
+    font-family: CirceRounded-Bold;
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 1.28px;
@@ -616,7 +616,7 @@
 .product-features-questions {
     font-size: 18px;
     color: #333;
-    font-family: CirceRounded-SemiBold;
+    font-family: CirceRounded-Bold;
     border-bottom: 1px solid #7777772e;
     padding: 15px 0px;
     margin-bottom: 20px;
@@ -648,7 +648,7 @@
 
 .credit-price-product-detail{
 	color: #49bd68;
-	font-family: CirceRounded-SemiBold;
+	font-family: CirceRounded-Bold;
 	white-space: nowrap;
 }
 
@@ -660,7 +660,7 @@
 }
 
 .cash-pricee-product-detail {
-    font-family: CirceRounded-SemiBold;
+    font-family: CirceRounded-Bold;
     color: red;
     white-space: nowrap;
 }
@@ -679,12 +679,12 @@
 }
 
 .per-month-product-detail{
-	font-family: CirceRounded-SemiBold;
+	font-family: CirceRounded-Bold;
 	font-size: 18px;
 }
 
 .bank-card{
-	font-family: CirceRounded-SemiBold;
+	font-family: CirceRounded-Bold;
 	font-size: 14px;
 	margin-top: 21px;
 	margin-bottom: 20px;
@@ -712,7 +712,7 @@
 	border-radius: 5px;
 	border: 1px solid #40484e;
 	display: inline-block;
-	font-family: CirceRounded-SemiBold;
+	font-family: CirceRounded-Bold;
 	font-size: 16px;
 	font-weight: 500;
 	letter-spacing: 1.28px;
@@ -736,7 +736,7 @@
 	border-radius: 5px;
 	border: 1px solid #40484e;
 	display: inline-block;
-	font-family: CirceRounded-SemiBold;
+	font-family: CirceRounded-Bold;
 	font-size: 16px;
 	font-weight: 500;
 	letter-spacing: 1.28px;

@@ -71,7 +71,7 @@
 }
 
 .most-asked-container .header_ul li:last-of-type a{
-    font-family: CirceRounded-Bold
+    font-family: CirceRounded-ExtraBold
     }
 
 .section-most-asked .ul-most-asked .most-asked-question-answer{
@@ -81,7 +81,7 @@
 .most-asked-questions{
     font-size: 18px;
     color: #333;
-    font-family: CirceRounded-SemiBold;
+    font-family: CirceRounded-Bold;
     border-bottom:1px solid #7777772e;
     padding: 15px 0px;
     margin-bottom: 20px;

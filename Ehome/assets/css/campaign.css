@@ -65,16 +65,16 @@
 }
 
 .campaign-container .header_ul li:last-of-type a{
-    font-family: CirceRounded-Bold
+    font-family: CirceRounded-ExtraBold
     }
 
 .campaign-name h1{
-    font-family: CirceRounded-SemiBold;
+    font-family: CirceRounded-Bold;
     font-size: 26px;
 }
 
 .campaign-duration{
-    font-family: CirceRounded-SemiBold;
+    font-family: CirceRounded-Bold;
     font-size: 15px;
     margin-bottom: 15px;
     padding-left: 15px;
@@ -111,7 +111,7 @@ margin: 0;
 }
 
 .timer ul li strong{
-    font-family: CirceRounded-SemiBold;
+    font-family: CirceRounded-Bold;
     font-size: 18px;
 }
 
@@ -128,12 +128,12 @@ margin: 0;
     position: absolute;
     top: -2px;
     right: -10px;
-    font-family: CirceRounded-SemiBold !important;
+    font-family: CirceRounded-Bold !important;
     font-size: 20px !important;
 }
 
 .days_text,.hours_text,.minutes_text,.seconds_text{
-    font-family: CirceRounded-SemiBold;
+    font-family: CirceRounded-Bold;
     font-size: 10px;
 }
 
@@ -152,7 +152,7 @@ margin: 0;
 }
 
 .campaign-detailly a{
-    font-family: CirceRounded-SemiBold;
+    font-family: CirceRounded-Bold;
     font-size: 14px;
     color: #333 !important;
     text-decoration: none;

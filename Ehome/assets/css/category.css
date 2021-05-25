@@ -16,13 +16,13 @@
 }
 
 @font-face {
-  font-family: CirceRounded-SemiBold;
-  src: url(../fonts/CirceRounded-SemiBold.ttf);
+  font-family: CirceRounded-Bold;
+  src: url(../fonts/CirceRounded-Bold.ttf);
 }
 
 @font-face {
-  font-family: CirceRounded-Bold;
-  src: url(../fonts/CirceRounded-Bold.ttf);
+  font-family: CirceRounded-ExtraBold;
+  src: url(../fonts/CirceRounded-ExtraBold.ttf);
 }
 
 @font-face {
@@ -104,7 +104,7 @@ line-height: 20px;
 }
 
 .category-header_container .header_ul li:last-of-type a{
-font-family: CirceRounded-Bold
+font-family: CirceRounded-ExtraBold
 }
 
 .category-item{
@@ -223,7 +223,7 @@ top: 0;
 
 .category_page_wrapper .category_page_container .product_filters_wrapper_desktop .product_filters_container .filters_title_wrapper .filters_title_list li a {
 text-decoration: none;
-font-family: CirceRounded-SemiBold;
+font-family: CirceRounded-Bold;
 font-size: 14px;
 font-weight: 500;
 letter-spacing: 1.2px;
@@ -359,7 +359,7 @@ height: 45px;
 border-radius: 5px;
 border: 1px solid #40484e;
 display: inline-block;
-font-family: CirceRounded-SemiBold;
+font-family: CirceRounded-Bold;
 font-size: 16px;
 font-weight: 500;
 letter-spacing: 1.28px;
@@ -431,7 +431,7 @@ display: flex;
     -ms-flex-align: center;
         align-items: center;
 left: -22px;
-font-family: CirceRounded-SemiBold;
+font-family: CirceRounded-Bold;
 font-size: 14px;
 }
 
@@ -487,7 +487,7 @@ display: flex !important;
 .range-filter-name{
 margin-bottom: 3px;
 font-size: 14px;
-font-family: CirceRounded-SemiBold;
+font-family: CirceRounded-Bold;
 }
 
 .inputs_wrapper{
@@ -517,7 +517,7 @@ margin-left: 10px;
 
 .name-category{
 font-size: 16px;
-font-family: CirceRounded-SemiBold;
+font-family: CirceRounded-Bold;
 margin-right: 10px;
 }
 
@@ -532,7 +532,7 @@ margin: 0;
 
 .count-item li a{
 font-size: 14px;
-font-family: CirceRounded-SemiBold;
+font-family: CirceRounded-Bold;
 text-decoration: none;
 color: black;
 }
@@ -583,7 +583,7 @@ background: white;
 padding: 0px;
 /* padding: 0.2rem 6.5rem 0.2rem 0.5rem; */
 font-size: 14px;
-font-family: CirceRounded-SemiBold;
+font-family: CirceRounded-Bold;
 width: 164px;
 white-space: nowrap;
 }
@@ -623,7 +623,7 @@ border-bottom:none !important;
 color: black;
 font-size: 14px;
 text-decoration: none;
-font-family: CirceRounded-SemiBold;
+font-family: CirceRounded-Bold;
 opacity: 0.7;
 }
 
@@ -634,7 +634,7 @@ color: #fff;
 
 .countt-itemm{
 font-size:15px;
-font-family:CirceRounded-SemiBold;
+font-family:CirceRounded-Bold;
 }
 
 .dropdownn-filter-list li:hover a{
@@ -860,7 +860,7 @@ font-family:CirceRounded-Regular;
 
 .credit-price{
 color:#49bd68;
-font-family: CirceRounded-SemiBold;
+font-family: CirceRounded-Bold;
 }
 
 .cash-price-percent{
@@ -871,7 +871,7 @@ border-radius: 5px;
 }
 
 .cash-pricee{
-font-family: CirceRounded-SemiBold;
+font-family: CirceRounded-Bold;
 color:red;
 white-space: nowrap;
 }
@@ -998,7 +998,7 @@ color: #49bd68;
 
 .block-item__price{
 font-size: 14px;
-font-family: CirceRounded-SemiBold;
+font-family: CirceRounded-Bold;
 }
 
 .category_page_container .mobile-filter-header-wrapper .mobile-filter-header-column {
@@ -1060,7 +1060,7 @@ line-height: 30px !important;
 .filter-panel-opener a{
 text-decoration: none;
 color: #333;
-font-family: CirceRounded-Semibold;
+font-family: CirceRounded-Bold;
 display: -webkit-box;
 display: -ms-flexbox;
 display: flex;
@@ -1121,7 +1121,7 @@ text-align: center;
 }
 
 .mobile-filter-menu-wrapper .mobile-filter-menu-columns .mobile-filter-menu-right-side .mobile-filter-menu-header .filter-header {
-font-family: CirceRounded-SemiBold;
+font-family: CirceRounded-Bold;
 font-size: 16px;
 color: #40484e;
 float: left;
@@ -1131,7 +1131,7 @@ margin-left: 15px;
 
 .mobile-filter-menu-wrapper .mobile-filter-menu-columns .mobile-filter-menu-right-side .mobile-filter-menu-header .filter-clear {
 opacity: .4;
-font-family: CirceRounded-SemiBold;
+font-family: CirceRounded-Bold;
 font-size: 15px;
 letter-spacing: 1.2px;
 color: #40484e;
@@ -1194,7 +1194,7 @@ width: 100%;
 }
 
 .mobile-filter-menu-wrapper .mobile-filter-menu-columns .mobile-filter-menu-right-side .mobile-filter-content .mobile-filter-list .mobile-filter .mobile-filter-toggle-div .mobile-filter-info-div .mobile-filter-info-span .mobile-filter-name {
-font-family: CirceRounded-SemiBold;
+font-family: CirceRounded-Bold;
 font-size: 15px;
 font-style: normal;
 letter-spacing: 1.2px;
@@ -1258,7 +1258,7 @@ z-index: 2;
   width: 100%;
 background: white;
 border: none;
-font-family: CirceRounded-SemiBold;
+font-family: CirceRounded-Bold;
 font-size: 15px;
 font-style: normal;
 letter-spacing: 1.2px;
@@ -1278,7 +1278,7 @@ border-radius: 5px;
 background-color: #40484e;
 border: 1px solid #40484e;
 display: inline-block;
-font-family: CirceRounded-SemiBold;
+font-family: CirceRounded-Bold;
 font-size: 16px;
 font-weight: 500;
 letter-spacing: 1.28px;
@@ -1425,7 +1425,7 @@ color: #40484e !important;
 }
 
 .inputs_wrapper .measurement-unit{
-  font-family: CirceRounded-SemiBold;
+  font-family: CirceRounded-Bold;
   font-size: 14px;
   position: absolute;
   top: 8px;
@@ -1542,7 +1542,7 @@ color: #40484e !important;
 
 .one-click-header{
   color: #49bd68;
-  font-family: CirceRounded-Bold;
+  font-family: CirceRounded-ExtraBold;
 }
 
 .modal-item-icon{
@@ -1621,7 +1621,7 @@ color: #40484e !important;
   border-radius: 5px;
   border: 1px solid #40484e;
   display: inline-block;
-  font-family: CirceRounded-SemiBold;
+  font-family: CirceRounded-Bold;
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 1.28px;
@@ -1645,7 +1645,7 @@ color: #40484e !important;
   border-radius: 5px;
   border: 1px solid #40484e;
   display: inline-block;
-  font-family: CirceRounded-SemiBold;
+  font-family: CirceRounded-Bold;
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 1.28px;
@@ -1663,7 +1663,7 @@ color: #40484e !important;
 .product-features-questions-quick-view {
   font-size: 14px;
   color: #333;
-  font-family: CirceRounded-SemiBold;
+  font-family: CirceRounded-Bold;
   border-bottom: 1px solid #7777772e;
   padding: 5px 0px;
       padding-left: 0px;

@@ -71,7 +71,7 @@
 }
 
 .personal-page-container .header_ul li:last-of-type a{
-    font-family: CirceRounded-Bold
+    font-family: CirceRounded-ExtraBold
     }
 
 .shadow-personal-page{
@@ -81,13 +81,13 @@
 }
 .shadow-personal-page a{
     color: #333;
-    font-family: CirceRounded-SemiBold;
+    font-family: CirceRounded-Bold;
     position: absolute;
     right: 5px;
     bottom: 5px;
 }
 .shadow-personal-page h3{
-    font-family: CirceRounded-SemiBold;
+    font-family: CirceRounded-Bold;
     display: flex;
     justify-content: center;
     font-size: 20px;
@@ -98,7 +98,7 @@
     padding: 20px;
 }
 .favouritee{
-    font-family: CirceRounded-SemiBold;
+    font-family: CirceRounded-Bold;
     font-size: 20px;
 }
 

@@ -23,13 +23,13 @@
   }
   
   @font-face {
-    font-family: CirceRounded-SemiBold;
-    src: url(../fonts/CirceRounded-SemiBold.ttf);
+    font-family: CirceRounded-Bold;
+    src: url(../fonts/CirceRounded-Bold.ttf);
   }
   
   @font-face {
-    font-family: CirceRounded-Bold;
-    src: url(../fonts/CirceRounded-Bold.ttf);
+    font-family: CirceRounded-ExtraBold;
+    src: url(../fonts/CirceRounded-ExtraBold.ttf);
   }
   
   @font-face {
@@ -102,7 +102,7 @@ ul{
 }
 
 .desktop_layout_wrapper .top_header_wrapper .top_header_inner .top_header_inner_left ul li a {
-    font-family: CirceRounded-SemiBold;
+    font-family: CirceRounded-Bold;
     font-size: 12px;
     font-weight: 500;
     line-height: 35px;
@@ -155,7 +155,7 @@ ul{
 }
 
 .desktop_layout_wrapper .top_header_wrapper .top_header_inner .top_header_inner_right ul li a .top_header_inner_right_text {
-    font-family: CirceRounded-SemiBold;
+    font-family: CirceRounded-Bold;
     font-size: 12px;
     font-weight: 500;
     display: inline-block;
@@ -262,7 +262,7 @@ ul{
 }
 
 .desktop_layout_wrapper .middle_header_wrapper .middle_header_inner .middle_header_inner_shortcuts_wrapper .shortcuts_list .shortcut_column .shortcut_title .shortcut_text {
-    font-family: CirceRounded-SemiBold;
+    font-family: CirceRounded-Bold;
     font-size: 12px;
     font-weight: 500;
     letter-spacing: .7px;
@@ -429,7 +429,7 @@ ul{
 
 .desktop_layout_wrapper .main_menu_wrapper .main_menu_categories .main_menu_category_list_wrapper .main_category_list .main_category_name {
     display: inline-block;
-    font-family: CirceRounded-SemiBold;
+    font-family: CirceRounded-Bold;
     font-size: 12px;
     font-weight: 500;
     letter-spacing: .5px;
@@ -543,7 +543,7 @@ ul{
 }
 
 .desktop_layout_wrapper .main_menu_wrapper .main_menu_categories .main_menu_category_list_wrapper .main_category_list .main_category_inner .main_category_inner_container .subcategories_column .img_column_inner .img_column_cta_box .column_cta {
-    font-family: CirceRounded-SemiBold;
+    font-family: CirceRounded-Bold;
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 1px;
@@ -614,18 +614,18 @@ ul{
 }
 
 .desktop_layout_wrapper .main_menu_wrapper .main_menu_categories .main_menu_category_list_wrapper .main_category_list .main_category_inner .main_category_inner_container .subcategories_column .subcategories_list li .subcategory_name.head_category {
-    font-family: CirceRounded-SemiBold;
+    font-family: CirceRounded-Bold;
     font-size: 12px;
 }
 
 .signup2 {
     color: #49bd68;
-    font-family: CirceRounded-Bold;
+    font-family: CirceRounded-ExtraBold;
 }
 
 .welcome{
     color: #49bd68;
-    font-family: CirceRounded-Bold;
+    font-family: CirceRounded-ExtraBold;
 }
 
 .joinj {
@@ -640,7 +640,7 @@ ul{
     padding: 6px 70px 6px 70px;
     width: 300px;
     height: 50px;
-    font-family: CirceRounded-SemiBold;
+    font-family: CirceRounded-Bold;
     border-radius: 6px;
     background-color: #49bd68;
     color: white;
@@ -650,7 +650,7 @@ ul{
 }
 
 .class-link-join, .reset-modal{
-    font-family: CirceRounded-Bold;
+    font-family: CirceRounded-ExtraBold;
 }
 
 .linkjoin, .joinfooter{
@@ -680,7 +680,7 @@ ul{
 }
 
 .mobile_layout_wrapper .top_header_wrapper ul li a {
-    font-family: CirceRounded-Bold;
+    font-family: CirceRounded-ExtraBold;
     display: inline-block;
     font-size: 12px;
     font-weight: 500;
@@ -926,7 +926,7 @@ ul{
 }
 
 .tt-dataset b, .tt-suggestion .tt-highlight {
-    font-family: CirceRounded-Bold;
+    font-family: CirceRounded-ExtraBold;
     font-weight: 500;
 }
 
@@ -1158,7 +1158,7 @@ body.overflow_hidden {
 }
 
 .menu__item a {
-    font-family: CirceRounded-Bold;
+    font-family: CirceRounded-ExtraBold;
     font-size: 14px !important;
     font-weight: 500;
     letter-spacing: 1px;

@@ -23,13 +23,13 @@
 }
 
 @font-face {
-  font-family: CirceRounded-SemiBold;
-  src: url(../fonts/CirceRounded-SemiBold.ttf);
+  font-family: CirceRounded-Bold;
+  src: url(../fonts/CirceRounded-Bold.ttf);
 }
 
 @font-face {
-  font-family: CirceRounded-Bold;
-  src: url(../fonts/CirceRounded-Bold.ttf);
+  font-family: CirceRounded-ExtraBold;
+  src: url(../fonts/CirceRounded-ExtraBold.ttf);
 }
 
 @font-face {
@@ -78,13 +78,13 @@ h6 {
 }
 
 .footer-site h5{
-font-family: CirceRounded-Bold !important;
+font-family: CirceRounded-ExtraBold !important;
 opacity: 0.5;
 font-size: 18px !important;
 }
 
 .main-name{
-  font-family: CirceRounded-Bold !important;
+  font-family: CirceRounded-ExtraBold !important;
   opacity: 1 !important;
 }
 
@@ -182,7 +182,7 @@ body .overlay_site .element .anime {
 
 .for-follow-email{
   border-radius:5px;
-  font-family: CirceRounded-Bold;
+  font-family: CirceRounded-ExtraBold;
 }
 
 @media screen and (min-width: 1120px) {

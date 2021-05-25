@@ -72,7 +72,7 @@
 }
 
 .location-container .header_ul li:last-of-type a{
-    font-family: CirceRounded-Bold
+    font-family: CirceRounded-ExtraBold
     }
 
 .location-ehome-map iframe{
@@ -80,7 +80,7 @@
 }
 
 .branch-location{
-    font-family: CirceRounded-SemiBold;
+    font-family: CirceRounded-Bold;
 }
 
 .location-information-ehome{

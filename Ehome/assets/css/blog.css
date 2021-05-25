@@ -65,7 +65,7 @@
 }
 
 .blog-container .header_ul li:last-of-type a{
-    font-family: CirceRounded-Bold
+    font-family: CirceRounded-ExtraBold
     }
 
     .blog-images{
@@ -81,7 +81,7 @@
         margin-bottom: 5px;
     }
     .blog-name h1 {
-        font-family: CirceRounded-SemiBold;
+        font-family: CirceRounded-Bold;
         font-size: 32px;
     }
     
@@ -106,7 +106,7 @@
         border-bottom-left-radius: 20px;
     }
     .blog-detailly a {
-        font-family: CirceRounded-SemiBold;
+        font-family: CirceRounded-Bold;
         font-size: 14px;
         color: #333 !important;
         text-decoration: none;

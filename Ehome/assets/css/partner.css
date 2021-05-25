@@ -65,7 +65,7 @@
 }
 
 .partner-container .header_ul li:last-of-type a{
-    font-family: CirceRounded-Bold
+    font-family: CirceRounded-ExtraBold
     }
 
 .for-partner-text{
@@ -74,7 +74,7 @@
 }
 
 .for-partner-text h1{
-    font-family: CirceRounded-Bold;
+    font-family: CirceRounded-ExtraBold;
     font-size: 22px;
     margin-bottom: 15px;
 }

@@ -73,7 +73,7 @@
 }
 
 .career-container .header_ul li:last-of-type a{
-    font-family: CirceRounded-Bold
+    font-family: CirceRounded-ExtraBold
     }
 
 .section-career .ul-career .career-question-answer{
@@ -83,7 +83,7 @@
 .career-questions{
     font-size: 18px;
     color: #333;
-    font-family: CirceRounded-SemiBold;
+    font-family: CirceRounded-Bold;
     border-bottom:1px solid #7777772e;
     padding: 15px 0px;
     margin-bottom: 20px;
@@ -111,7 +111,7 @@
     padding: 0px 20px;
     display: flex;
     margin-bottom: 20px;
-    font-family: CirceRounded-SemiBold;
+    font-family: CirceRounded-Bold;
 }
 .form-input input, .form-input select, .form-input textarea{
     width: 100%;
@@ -125,7 +125,7 @@
     border-radius: 5px;
     border: 1px solid #40484e;
     display: inline-block;
-    font-family: CirceRounded-SemiBold;
+    font-family: CirceRounded-Bold;
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 1.28px;
