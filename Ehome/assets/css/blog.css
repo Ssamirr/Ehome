@@ -22,7 +22,7 @@
     }
 
 .blog-container .header_ul li a {
-    font-family: EtelkaPro-Regular;
+    font-family: CirceRounded-Regular;
     font-size: 12px;
     font-weight: 500;
     letter-spacing: 1.03px;
@@ -53,7 +53,7 @@
 .blog-header .blog_output_title{
     float: left;
     width: 100%;
-    font-family: EtelkaPro-Regular;
+    font-family: CirceRounded-Regular;
     font-size: 24px;
     font-weight: 500;
     letter-spacing: 3px;
@@ -65,7 +65,7 @@
 }
 
 .blog-container .header_ul li:last-of-type a{
-    font-family: EtelkaPro-Bold
+    font-family: CirceRounded-Bold
     }
 
     .blog-images{
@@ -81,12 +81,12 @@
         margin-bottom: 5px;
     }
     .blog-name h1 {
-        font-family: EtelkaPro-SemiBold;
+        font-family: CirceRounded-SemiBold;
         font-size: 32px;
     }
     
     .blog-content {
-        font-family: EtelkaPro-Regular;
+        font-family: CirceRounded-Regular;
         font-size: 15px;
     }
     
@@ -106,7 +106,7 @@
         border-bottom-left-radius: 20px;
     }
     .blog-detailly a {
-        font-family: EtelkaPro-SemiBold;
+        font-family: CirceRounded-SemiBold;
         font-size: 14px;
         color: #333 !important;
         text-decoration: none;

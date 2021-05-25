@@ -29,7 +29,7 @@
     }
 
 .product-detail-container .header_ul li a {
-    font-family: EtelkaPro-Regular;
+    font-family: CirceRounded-Regular;
     font-size: 12px;
     font-weight: 500;
     letter-spacing: 1.03px;
@@ -41,7 +41,7 @@
 .product-detail-header .product-detail_output_title{
     float: left;
     width: 100%;
-    font-family: EtelkaPro-Regular;
+    font-family: CirceRounded-Regular;
     font-size: 24px;
     font-weight: 500;
     letter-spacing: 3px;
@@ -53,7 +53,7 @@
 }
 
 .product-detail-container .header_ul li:last-of-type a{
-    font-family: EtelkaPro-Bold
+    font-family: CirceRounded-Bold
     }
 
 .row.carousel-holder {
@@ -474,7 +474,7 @@
     padding: 5px;
     text-align: center;
 	width: calc(100% / 6);
-	font-family: EtelkaPro-Regular;
+	font-family: CirceRounded-Regular;
 	font-size: 14px;
 }
 
@@ -521,7 +521,7 @@
 	
 	.block-item__title span{
 	font-size: 12px;
-	font-family: EtelkaPro-Regular
+	font-family: CirceRounded-Regular
 	}
 	
 	.block-item__title a{
@@ -535,7 +535,7 @@
 	
 	.block-item__price{
 	font-size: 14px;
-	font-family: EtelkaPro-SemiBold;
+	font-family: CirceRounded-SemiBold;
 	}
 
 #owl-carousel-item-same:hover .owl-nav .owl-prev ,#owl-carousel-item-same:hover .owl-nav .owl-next{
@@ -558,7 +558,7 @@
 	padding: 0px 20px;
 	display: flex;
 	margin-bottom: 20px;
-	font-family: EtelkaPro-SemiBold;
+	font-family: CirceRounded-SemiBold;
 	}
 
 .form-input input, .form-input select, .form-input textarea {
@@ -573,7 +573,7 @@
     border-radius: 5px;
     border: 1px solid #40484e;
     display: inline-block;
-    font-family: EtelkaPro-SemiBold;
+    font-family: CirceRounded-SemiBold;
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 1.28px;
@@ -616,7 +616,7 @@
 .product-features-questions {
     font-size: 18px;
     color: #333;
-    font-family: EtelkaPro-SemiBold;
+    font-family: CirceRounded-SemiBold;
     border-bottom: 1px solid #7777772e;
     padding: 15px 0px;
     margin-bottom: 20px;
@@ -633,7 +633,7 @@
 .product-features-answers {
     font-size: 16px;
     color: #333;
-    font-family: EtelkaPro-Regular;
+    font-family: CirceRounded-Regular;
     padding: 0px 20px;
     margin: 0;
     overflow: hidden;
@@ -642,13 +642,13 @@
 }
 
 .for-credit-product-detail,.cash-price-product-detail{
-	font-family:EtelkaPro-Regular;
+	font-family:CirceRounded-Regular;
 	font-size: 14px;
 }
 
 .credit-price-product-detail{
 	color: #49bd68;
-	font-family: EtelkaPro-SemiBold;
+	font-family: CirceRounded-SemiBold;
 	white-space: nowrap;
 }
 
@@ -660,7 +660,7 @@
 }
 
 .cash-pricee-product-detail {
-    font-family: EtelkaPro-SemiBold;
+    font-family: CirceRounded-SemiBold;
     color: red;
     white-space: nowrap;
 }
@@ -669,7 +669,7 @@
     padding: 2px 7px 2px;
     margin: 0 2px 4px;
     letter-spacing: normal;
-    font-family: EtelkaPro-Regular;
+    font-family: CirceRounded-Regular;
     background-color: #49bd68;
     width: auto;
     display: inline-block;
@@ -679,12 +679,12 @@
 }
 
 .per-month-product-detail{
-	font-family: EtelkaPro-SemiBold;
+	font-family: CirceRounded-SemiBold;
 	font-size: 18px;
 }
 
 .bank-card{
-	font-family: EtelkaPro-SemiBold;
+	font-family: CirceRounded-SemiBold;
 	font-size: 14px;
 	margin-top: 21px;
 	margin-bottom: 20px;
@@ -712,7 +712,7 @@
 	border-radius: 5px;
 	border: 1px solid #40484e;
 	display: inline-block;
-	font-family: EtelkaPro-SemiBold;
+	font-family: CirceRounded-SemiBold;
 	font-size: 16px;
 	font-weight: 500;
 	letter-spacing: 1.28px;
@@ -736,7 +736,7 @@
 	border-radius: 5px;
 	border: 1px solid #40484e;
 	display: inline-block;
-	font-family: EtelkaPro-SemiBold;
+	font-family: CirceRounded-SemiBold;
 	font-size: 16px;
 	font-weight: 500;
 	letter-spacing: 1.28px;
@@ -766,7 +766,7 @@
 
 .item-stock .value{
 	font-size:12px;
-	font-family:EtelkaPro-Regular;
+	font-family:CirceRounded-Regular;
 	border-bottom: 1px dotted;
 	color: #49bd68;
 }
@@ -775,7 +775,7 @@
 .article_block .muted{
 	color: #999;
 	font-size:12px;
-	font-family:EtelkaPro-Regular;
+	font-family:CirceRounded-Regular;
 }
 
 #carousel_item_same .each-items-product-detail:hover{

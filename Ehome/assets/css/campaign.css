@@ -22,7 +22,7 @@
     }
 
 .campaign-container .header_ul li a {
-    font-family: EtelkaPro-Regular;
+    font-family: CirceRounded-Regular;
     font-size: 12px;
     font-weight: 500;
     letter-spacing: 1.03px;
@@ -53,7 +53,7 @@
 .campaign-header .campaign_output_title{
     float: left;
     width: 100%;
-    font-family: EtelkaPro-Regular;
+    font-family: CirceRounded-Regular;
     font-size: 24px;
     font-weight: 500;
     letter-spacing: 3px;
@@ -65,16 +65,16 @@
 }
 
 .campaign-container .header_ul li:last-of-type a{
-    font-family: EtelkaPro-Bold
+    font-family: CirceRounded-Bold
     }
 
 .campaign-name h1{
-    font-family: EtelkaPro-SemiBold;
+    font-family: CirceRounded-SemiBold;
     font-size: 26px;
 }
 
 .campaign-duration{
-    font-family: EtelkaPro-SemiBold;
+    font-family: CirceRounded-SemiBold;
     font-size: 15px;
     margin-bottom: 15px;
     padding-left: 15px;
@@ -82,7 +82,7 @@
 }
 
 .campaign-content{
-    font-family: EtelkaPro-Regular;
+    font-family: CirceRounded-Regular;
     font-size: 15px;
     padding-left: 15px;
     padding-right: 15px;
@@ -111,12 +111,12 @@ margin: 0;
 }
 
 .timer ul li strong{
-    font-family: EtelkaPro-SemiBold;
+    font-family: CirceRounded-SemiBold;
     font-size: 18px;
 }
 
 /* .timer ul li span{
-    font-family: EtelkaPro-Regular;
+    font-family: CirceRounded-Regular;
     font-size: 12px;
 } */
 
@@ -128,12 +128,12 @@ margin: 0;
     position: absolute;
     top: -2px;
     right: -10px;
-    font-family: EtelkaPro-SemiBold !important;
+    font-family: CirceRounded-SemiBold !important;
     font-size: 20px !important;
 }
 
 .days_text,.hours_text,.minutes_text,.seconds_text{
-    font-family: EtelkaPro-SemiBold;
+    font-family: CirceRounded-SemiBold;
     font-size: 10px;
 }
 
@@ -152,7 +152,7 @@ margin: 0;
 }
 
 .campaign-detailly a{
-    font-family: EtelkaPro-SemiBold;
+    font-family: CirceRounded-SemiBold;
     font-size: 14px;
     color: #333 !important;
     text-decoration: none;

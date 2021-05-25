@@ -27,7 +27,7 @@
     }
 
 .credit-container .header_ul li a {
-    font-family: EtelkaPro-Regular;
+    font-family: CirceRounded-Regular;
     font-size: 12px;
     font-weight: 500;
     letter-spacing: 1.03px;
@@ -58,7 +58,7 @@
 .credit-header .credit_output_title{
     float: left;
     width: 100%;
-    font-family: EtelkaPro-Regular;
+    font-family: CirceRounded-Regular;
     font-size: 24px;
     font-weight: 500;
     letter-spacing: 3px;
@@ -70,12 +70,12 @@
 }
 
 .credit-container .header_ul li:last-of-type a{
-    font-family: EtelkaPro-Bold
+    font-family: CirceRounded-Bold
     }
 
 .all-credit-terms .terms{
     font-size: 14px;
-    font-family: EtelkaPro-Regular;
+    font-family: CirceRounded-Regular;
 }
 
 @media screen and (min-width: 1121px) {
