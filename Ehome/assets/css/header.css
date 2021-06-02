@@ -1204,8 +1204,22 @@ body.overflow_hidden {
 .mobile_layout_wrapper .menu-content .menu .to-left-ul .menu__sub-menu .menu__sub-menu__item .menu__sub-menu__link.child_category {
     text-transform: uppercase;
     letter-spacing: .7px;
-    padding-left: 10px;
+    /* padding-left: 10px; */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
+
+.menu__sub-menu.open{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.other-menu-item ul li a{
+    font-size: 13px !important;
+}
+
+
 
 .mobile_layout_wrapper .menu-content .menu .to-left-ul .menu__sub-menu .menu__sub-menu__item .menu__sub-menu__link {
     text-transform: capitalize;
